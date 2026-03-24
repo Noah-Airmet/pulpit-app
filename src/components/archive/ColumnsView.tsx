@@ -178,46 +178,56 @@ export function ColumnsView() {
     fetchTalks()
   }, [selectedConference])
 
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      // Don't intercept if user is typing in an input
+      if (document.activeElement?.tagName === 'INPUT' || document.activeElement?.tagName === 'TEXTAREA') return
+      
+      if (!['ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight'].includes(e.key)) return
+      if (e.altKey || e.ctrlKey || e.metaKey) return
+      
+      e.preventDefault()
+      
+      if (e.key === 'ArrowRight') {
+        setActiveCol(c => Math.min(2, c + 1))
+      } else if (e.key === 'ArrowLeft') {
+        setActiveCol(c => Math.max(0, c - 1))
+      } else if (e.key === 'ArrowUp' || e.key === 'ArrowDown') {
+        const dir = e.key === 'ArrowDown' ? 1 : -1
+        
+        if (activeCol === 0) {
+          const idx = decades.findIndex(d => d.id === selectedDecade)
+          let nextIdx = idx === -1 ? 0 : idx + dir
+          if (nextIdx < 0) nextIdx = 0
+          if (nextIdx >= decades.length) nextIdx = decades.length - 1
+          setSelectedDecade(decades[nextIdx].id)
+          setSelectedConference(null)
+        } else if (activeCol === 1 && conferences.length > 0) {
+          const idx = conferences.findIndex(c => c.id === selectedConference)
+          let nextIdx = idx === -1 ? 0 : idx + dir
+          if (nextIdx < 0) nextIdx = 0
+          if (nextIdx >= conferences.length) nextIdx = conferences.length - 1
+          setSelectedConference(conferences[nextIdx].id)
+        } else if (activeCol === 2 && talks.length > 0) {
+          const links = containerRef.current?.querySelectorAll<HTMLAnchorElement>('.talk-link')
+          if (!links || links.length === 0) return
+          let focused = document.activeElement as HTMLAnchorElement | null
+          const idx = Array.from(links).findIndex(l => l === focused)
+          let nextIdx = idx === -1 ? 0 : idx + dir
+          if (nextIdx < 0) nextIdx = 0
+          if (nextIdx >= links.length) nextIdx = links.length - 1
+          links[nextIdx].focus()
+        }
+      }
+    }
+    
+    window.addEventListener('keydown', handleKeyDown)
+    return () => window.removeEventListener('keydown', handleKeyDown)
+  }, [activeCol, selectedDecade, selectedConference, decades, conferences, talks])
+
   return (
     <div
       ref={containerRef}
-      tabIndex={0}
-      onKeyDown={(e) => {
-        if (!['ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight'].includes(e.key)) return
-        if (e.altKey || e.ctrlKey || e.metaKey) return
-        e.preventDefault()
-        if (e.key === 'ArrowRight') {
-          setActiveCol(c => Math.min(2, c + 1))
-        } else if (e.key === 'ArrowLeft') {
-          setActiveCol(c => Math.max(0, c - 1))
-        } else if (e.key === 'ArrowUp' || e.key === 'ArrowDown') {
-          const dir = e.key === 'ArrowDown' ? 1 : -1
-          if (activeCol === 0) {
-            const idx = decades.findIndex(d => d.id === selectedDecade)
-            let nextIdx = idx === -1 ? 0 : idx + dir
-            if (nextIdx < 0) nextIdx = 0
-            if (nextIdx >= decades.length) nextIdx = decades.length - 1
-            setSelectedDecade(decades[nextIdx].id)
-            setSelectedConference(null)
-          } else if (activeCol === 1 && conferences.length > 0) {
-            const idx = conferences.findIndex(c => c.id === selectedConference)
-            let nextIdx = idx === -1 ? 0 : idx + dir
-            if (nextIdx < 0) nextIdx = 0
-            if (nextIdx >= conferences.length) nextIdx = conferences.length - 1
-            setSelectedConference(conferences[nextIdx].id)
-          } else if (activeCol === 2 && talks.length > 0) {
-            const links = containerRef.current?.querySelectorAll<HTMLAnchorElement>('.talk-link')
-            if (!links || links.length === 0) return
-            const focused = document.activeElement as HTMLAnchorElement
-            const idx = Array.from(links).findIndex(l => l === focused)
-            let nextIdx = idx === -1 ? 0 : idx + dir
-            if (nextIdx < 0) nextIdx = 0
-            if (nextIdx >= links.length) nextIdx = links.length - 1
-            links[nextIdx].focus()
-          }
-        }
-      }}
-      onClick={() => containerRef.current?.focus()}
       style={{
         display: 'flex',
         height: '600px',
