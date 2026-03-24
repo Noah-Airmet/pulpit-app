@@ -6,7 +6,6 @@ import { useSearch, type SearchFilterParams } from '../hooks/useSearch'
 
 const DEFAULT_FILTERS: SearchFilterParams = {
   query: '',
-  era: '',
   speaker: '',
   fidelities: [],
   yearFrom: '',
@@ -68,12 +67,10 @@ export function Search() {
 
       <div style={{ marginBottom: '2rem' }}>
         <ArchiveFilters
-          era={filters.era}
           speaker={filters.speaker}
           fidelities={filters.fidelities}
           yearFrom={filters.yearFrom}
           yearTo={filters.yearTo}
-          onEraChange={v => updateFilter('era', v)}
           onSpeakerChange={v => updateFilter('speaker', v)}
           onFidelitiesChange={v => updateFilter('fidelities', v)}
           onYearFromChange={v => updateFilter('yearFrom', v)}

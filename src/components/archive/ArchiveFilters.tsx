@@ -1,7 +1,5 @@
 import { DropdownFilter } from '../ui/DropdownFilter'
 
-const ERAS = ['1830-1844', '1845-1850', '1850-1879', '1881-1896', '1897-present']
-
 const FIDELITY_OPTIONS = [
   { value: 'verbatim', label: 'Verbatim' },
   { value: 'near_verbatim', label: 'Near Verbatim' },
@@ -12,12 +10,10 @@ const FIDELITY_OPTIONS = [
 ]
 
 interface Props {
-  era: string
   speaker: string
   fidelities: string[]
   yearFrom: string
   yearTo: string
-  onEraChange: (era: string) => void
   onSpeakerChange: (speaker: string) => void
   onFidelitiesChange: (fidelities: string[]) => void
   onYearFromChange: (year: string) => void
@@ -49,12 +45,11 @@ const inputStyle: React.CSSProperties = {
 }
 
 export function ArchiveFilters({
-  era, speaker, fidelities, yearFrom, yearTo,
-  onEraChange, onSpeakerChange, onFidelitiesChange,
+  speaker, fidelities, yearFrom, yearTo,
+  onSpeakerChange, onFidelitiesChange,
   onYearFromChange, onYearToChange, onReset,
 }: Props) {
   const activeCount = [
-    era ? 1 : 0,
     speaker ? 1 : 0,
     fidelities.length > 0 ? 1 : 0,
     yearFrom || yearTo ? 1 : 0,
@@ -68,45 +63,8 @@ export function ArchiveFilters({
     }
   }
 
-  function handleEraClick(e: string) {
-    onEraChange(era === e ? '' : e)
-    onYearFromChange('')
-    onYearToChange('')
-  }
-
   return (
     <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', flexWrap: 'wrap' }}>
-      {/* Era Filter */}
-      <DropdownFilter label="Era" activeCount={era ? 1 : 0}>
-        <span style={sectionLabel}>Select Historical Era</span>
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '0.25rem' }}>
-          {ERAS.map(e => {
-            const active = era === e
-            return (
-              <button
-                key={e}
-                onClick={() => handleEraClick(e)}
-                style={{
-                  textAlign: 'left',
-                  padding: '0.5rem 0.75rem',
-                  borderRadius: '6px',
-                  background: active ? 'var(--color-ink-faint)' : 'transparent',
-                  color: active ? 'var(--color-accent)' : 'var(--color-ink-secondary)',
-                  border: 'none',
-                  cursor: 'pointer',
-                  fontFamily: 'var(--font-ui)',
-                  fontSize: '0.8125rem',
-                  fontWeight: active ? 600 : 400,
-                  transition: 'background 0.1s',
-                }}
-              >
-                {e}
-              </button>
-            )
-          })}
-        </div>
-      </DropdownFilter>
-
       {/* Speaker Filter */}
       <DropdownFilter label="Speaker" activeCount={speaker ? 1 : 0}>
         <span style={sectionLabel}>Filter by Speaker</span>
@@ -167,7 +125,6 @@ export function ArchiveFilters({
             value={yearFrom}
             onChange={e => {
               onYearFromChange(e.target.value)
-              onEraChange('')
             }}
             placeholder="From"
             min={1830}
@@ -180,7 +137,6 @@ export function ArchiveFilters({
             value={yearTo}
             onChange={e => {
               onYearToChange(e.target.value)
-              onEraChange('')
             }}
             placeholder="To"
             min={1830}

@@ -6,7 +6,6 @@ import { ArchiveFilters } from '../components/archive/ArchiveFilters'
 import { ColumnsView } from '../components/archive/ColumnsView'
 
 const DEFAULT_FILTERS: ArchiveFilterParams = {
-  era: '',
   speaker: '',
   fidelities: [],
   yearFrom: '',
@@ -92,12 +91,10 @@ export function Archive() {
 
       <div style={{ marginBottom: '2rem' }}>
         <ArchiveFilters
-          era={filters.era}
           speaker={filters.speaker}
           fidelities={filters.fidelities}
           yearFrom={filters.yearFrom}
           yearTo={filters.yearTo}
-          onEraChange={v => updateFilter('era', v)}
           onSpeakerChange={v => updateFilter('speaker', v)}
           onFidelitiesChange={v => updateFilter('fidelities', v)}
           onYearFromChange={v => updateFilter('yearFrom', v)}

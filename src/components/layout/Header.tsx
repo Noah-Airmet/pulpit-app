@@ -57,7 +57,7 @@ export function Header() {
         width: 'calc(100% - 2rem)',
         maxWidth: 'var(--width-page)',
         zIndex: 100,
-        background: 'rgba(250, 248, 245, 0.75)',
+        background: 'rgba(250, 248, 245, 0.45)',
         backdropFilter: 'blur(12px)',
         WebkitBackdropFilter: 'blur(12px)',
         border: '1px solid var(--color-border)',
@@ -65,7 +65,6 @@ export function Header() {
         boxShadow: 'var(--shadow-md)',
       }}
     >
-      <a href="#main-content" className="skip-link">Skip to content</a>
       <div
         style={{
           maxWidth: 'var(--width-page)',

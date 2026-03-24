@@ -9,7 +9,6 @@ interface Props {
 export function Layout({ children }: Props) {
   return (
     <div
-      className="bg-historical-texture"
       style={{
         minHeight: '100vh',
         display: 'flex',
