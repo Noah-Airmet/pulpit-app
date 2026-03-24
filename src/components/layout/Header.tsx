@@ -51,13 +51,18 @@ export function Header() {
     <header
       style={{
         position: 'fixed',
-        top: 0,
-        left: 0,
-        right: 0,
+        top: '1rem',
+        left: '50%',
+        transform: 'translateX(-50%)',
+        width: 'calc(100% - 2rem)',
+        maxWidth: 'var(--width-page)',
         zIndex: 100,
-        background: 'var(--color-paper)',
-        borderBottom: '1px solid var(--color-border-light)',
-        boxShadow: 'var(--shadow-sm)',
+        background: 'rgba(250, 248, 245, 0.75)',
+        backdropFilter: 'blur(12px)',
+        WebkitBackdropFilter: 'blur(12px)',
+        border: '1px solid var(--color-border)',
+        borderRadius: '9999px',
+        boxShadow: 'var(--shadow-md)',
       }}
     >
       <a href="#main-content" className="skip-link">Skip to content</a>

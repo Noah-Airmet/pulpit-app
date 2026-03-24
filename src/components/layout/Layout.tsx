@@ -9,6 +9,7 @@ interface Props {
 export function Layout({ children }: Props) {
   return (
     <div
+      className="bg-historical-texture"
       style={{
         minHeight: '100vh',
         display: 'flex',
@@ -17,7 +18,7 @@ export function Layout({ children }: Props) {
       }}
     >
       <Header />
-      <main id="main-content" style={{ flex: 1, paddingTop: 56 }}>
+      <main id="main-content" style={{ flex: 1, paddingTop: 104, position: 'relative', zIndex: 1 }}>
         {children}
       </main>
       <Footer />
