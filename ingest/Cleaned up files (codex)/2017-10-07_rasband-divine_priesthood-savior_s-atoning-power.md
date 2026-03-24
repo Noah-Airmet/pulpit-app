@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 Picture with me a rocket being maneuvered to a launchpad so it can be readied for liftoff. Now visualize the ignition. Fuel, in a controlled burn, is converted into hot gas that spews out, providing the necessary thrust to propel the rocket into space. Finally, envision the payload, or cargo, that sits atop the rocket. The payload's worth is fully realized only when it gets where it needs to be and functions as it should. You don't need to be a rocket scientist to appreciate that an expensive global communications satellite is of little value sitting in a warehouse. The rocket's mission is simply to deliver a payload.

@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 It is proposed that we sustain Thomas Spencer Monson as prophet, seer, and revelator and President of The Church of Jesus Christ of Latter-day Saints; Henry Bennion Eyring as First Counselor in the First Presidency; and Dieter Friedrich Uchtdorf as Second Counselor in the First Presidency.

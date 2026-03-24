@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 The Lord revealed to the Prophet Joseph Smith sublime doctrine concerning the sacred ordinance of baptism. That light came when other Christian churches taught that death irrevocably, eternally, determined the destiny of the soul. They taught the baptized were rewarded with endless joy while all others faced eternal torment without hope of redemption.

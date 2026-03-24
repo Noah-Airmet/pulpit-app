@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 I've been asked to address my remarks to the young men this evening. It is my humble prayer that I may further instill in them the desire to pursue excellence and to dedicate themselves to serving our Heavenly Father.

@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 To attend this conference, we have traveled by many modes of transportation. Some came on the ground, in cars or buses or trains. Others came by airplane. But whatever the means, we have all arrived at a common destination.

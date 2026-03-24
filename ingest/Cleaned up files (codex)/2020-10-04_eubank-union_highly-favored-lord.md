@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 One day years ago, as young missionaries laboring in a tiny branch on the small island of Amami Oshima, Japan, my companion and I were ecstatic to learn that President Spencer W. Kimball would be visiting Asia and that all members and missionaries in Japan were invited to Tokyo to hear the prophet at an area conference. With branch members, my companion and I excitedly began making plans for the conference, which would require a 12-hour boat ride across the East China Sea to mainland Japan, followed by a 15-hour train ride to Tokyo. Sadly, however, it was not to be. We received word from our mission president that because of distance and time, my companion and I would not be able to attend the conference in Tokyo.

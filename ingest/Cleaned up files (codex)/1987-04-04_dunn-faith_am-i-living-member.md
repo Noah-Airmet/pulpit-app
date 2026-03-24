@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 At a critical moment in the battle of Waterloo, when everything depended on the steadiness of the soldiery, an anxious courier dashed into the presence of the Duke of Wellington, announcing that unless the troops were immediately relieved or withdrawn, they must yield before the impending assault of the French army. The Duke replied, "Stand firm!"

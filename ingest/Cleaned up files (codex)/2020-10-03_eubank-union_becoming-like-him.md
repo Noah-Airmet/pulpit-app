@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 To even the careful student of the life and ministry of Jesus Christ, the Savior's admonition to be "even as I am" is daunting and seemingly unattainable. Perhaps you are like me—all too aware of your faults and failings, so you may find it mentally more comfortable to walk a path with no upward incline and little growth. "Surely, this teaching is unrealistic and hyperbole," we rationalize as we comfortably choose the course of least resistance, thereby burning fewer calories of needed change.

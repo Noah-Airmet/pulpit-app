@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 Ten years ago as my wife, Kathy, and I were living in São Paulo, Brazil, President David Marriott was presiding over the Brazil São Paulo Interlagos Mission. He and his wife, Neill, and their sons Will, Wesley, and Trace lived near us. They had left their home, their business, and many in their family to respond to a call from the prophet to serve a mission.

@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 I volunteered for service in the United States Marine Corps during the Vietnam War. Soon after my arrival in Quantico, Virginia, for basic training, I found myself standing at attention in front of my barrack's bunk along with 54 other Marine Corps recruits. I met my drill instructor, a battle-hardened veteran, when he kicked open the door to the barracks and entered while screaming words laced with profanity.

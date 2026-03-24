@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 You might not know this, but President Monson and I are twins. On the very day I was born—in the very hour—in Northern California, the 36-year-old Thomas S. Monson was sustained as the newest Apostle. I love my special, personal link to the prophet of God, President Monson.

@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 In the spring of 1866, during what is called the Black Hawk War, our pioneers were struggling to beat back deadly Indian attacks on many settlements in southern Utah. Two of President Heber C. Kimball's sons were called into military service for a three-month expedition against the Indians. Before they left he gave them a priesthood blessing. Apparently concerned that his sons might shed the blood of their Lamanite brothers, he first counseled them about the great promises God has made to this branch of the house of Israel. He then blessed his sons and promised them they would not see a single Indian on their campaign. His sons, full of fight and eager to smell gunpowder, were disappointed at this promise, but the blessing was fulfilled. When they returned three months later, they reported:

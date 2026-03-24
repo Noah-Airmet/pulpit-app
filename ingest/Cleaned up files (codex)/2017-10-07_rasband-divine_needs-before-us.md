@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 In recent days we have witnessed a large number of natural disasters, in Mexico, the United States, Asia, the Caribbean, and Africa. It has brought out the best in people as thousands have stepped in to help those who are in danger or need and who have suffered loss. I have been thrilled to see young women in Texas and Florida who, along with many others, have donned the yellow Helping Hands T-shirts and are helping clear houses of debris following the recent hurricanes. Many thousands more would gladly go to the centers of need were it not for distance. Instead, you have offered generous donations to alleviate suffering. Your generosity and compassion are inspiring and Christlike.

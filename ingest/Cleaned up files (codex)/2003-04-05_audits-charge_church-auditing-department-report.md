@@ -15,6 +15,8 @@ needs_review: true
 notes: >-
   This website was scraped by Samuel Baird. Script:
   https://github.com/Samuel-Baird/pulpit
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 To the First Presidency of The Church of Jesus Christ of Latter-day Saints

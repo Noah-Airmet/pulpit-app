@@ -15,6 +15,8 @@ needs_review: true
 notes: >-
   This website was scraped by Samuel Baird. Script:
   https://github.com/Samuel-Baird/pulpit
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 Brothers and sisters, as announced, I will now present the General Authorities, Area Seventies, and General Officers of the Church for your sustaining vote.

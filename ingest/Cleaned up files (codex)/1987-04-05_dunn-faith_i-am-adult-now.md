@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 Some weeks ago a man holding a high office in the Church asked a special favor of me. "Would you be good enough to take the time to listen while a mother, father, and their teenage daughter, special friends of mine, try to talk to each other?"

@@ -9,6 +9,8 @@ const DEFAULT_FILTERS: SearchFilterParams = {
   era: '',
   speaker: '',
   fidelities: [],
+  callings: [],
+  editorTags: [],
   yearFrom: '',
   yearTo: '',
   page: 0,
@@ -71,11 +73,15 @@ export function Search() {
           era={filters.era}
           speaker={filters.speaker}
           fidelities={filters.fidelities}
+          callings={filters.callings}
+          editorTags={filters.editorTags}
           yearFrom={filters.yearFrom}
           yearTo={filters.yearTo}
           onEraChange={v => updateFilter('era', v)}
           onSpeakerChange={v => updateFilter('speaker', v)}
           onFidelitiesChange={v => updateFilter('fidelities', v)}
+          onCallingsChange={v => updateFilter('callings', v)}
+          onEditorTagsChange={v => updateFilter('editorTags', v)}
           onYearFromChange={v => updateFilter('yearFrom', v)}
           onYearToChange={v => updateFilter('yearTo', v)}
           onReset={resetFilters}

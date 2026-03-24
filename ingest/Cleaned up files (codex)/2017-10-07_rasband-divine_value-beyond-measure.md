@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 While visiting the country of Sierra Leone in West Africa, I participated in a meeting conducted by a stake Primary leader. Mariama led with such love, grace, and confidence that it was easy to assume she had long been a member of the Church. Mariama, however, was a fairly recent convert.

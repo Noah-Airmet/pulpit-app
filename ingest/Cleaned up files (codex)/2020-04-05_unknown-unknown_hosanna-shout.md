@@ -15,6 +15,8 @@ needs_review: true
 notes: >-
   This website was scraped by Samuel Baird. Script:
   https://github.com/Samuel-Baird/pulpit
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 Now, my dear brothers and sisters, as we commemorate Joseph Smith's First Vision of the Father and the Son, we felt that it would be appropriate to rejoice together by participating in the Hosanna Shout.

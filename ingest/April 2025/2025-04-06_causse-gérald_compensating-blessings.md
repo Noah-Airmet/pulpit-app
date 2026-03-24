@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-23"
 needs_review: true                # set false once a second person has verified
 notes: "No notes."
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 Serving in the Presiding Bishopric, I have had the privilege of meeting Latter-day Saints around the world in a variety of places and cultures. I have been continually inspired by your abiding faith and devotion to the Lord Jesus Christ. Yet I have also been moved by the diverse and often difficult circumstances many of you face—challenges such as illness, disability, limited resources, fewer opportunities for marriage or education, abuse by others, and other limitations or constraints. At times, these trials may seem to hinder your progress and challenge your genuine efforts to live the gospel fully, making it more difficult to serve, worship, and fulfill sacred duties.

@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 We are all different. Each of us has been given talents as well as challenges. Some of us may have physical or mental limitations; others may be lonely or come from homes that do not teach gospel principles. Because Heavenly Father loves each of us, he has provided us with a source of comfort and strength—the scriptures.

@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-23"
 needs_review: true                # set false once a second person has verified
 notes: "No notes."
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 When our son Eli was in fourth grade, his class set up a mock government where he was elected by his peers to serve as class judge. One day a sitting judge from the Utah Second District Court visited, put his official robes on Eli, and then administered an oath of office for their class. This ignited in Eli's young, impressionable soul a passion for studying law and the Lawgiver Himself, Jesus Christ.

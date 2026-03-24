@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 At the last general conference, I really took the time and effort to listen to the talks and try to gain something from them. While listening to President Gordon B. Hinckley, I was so touched by his spirit. I thought about the right choices he made when he was our age that helped him stay true to his beliefs. As he was giving counsel to us, I could see the love and devotion he has for us and his calling. As he was laughing and joking, I could see the joy that comes from serving the Lord.

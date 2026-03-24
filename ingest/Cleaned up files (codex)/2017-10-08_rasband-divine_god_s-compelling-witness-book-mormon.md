@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 The Book of Mormon is not only the keystone of our religion, but it can also become the keystone of our testimonies so that when trials or unanswered questions confront us, it can hold our testimonies securely in place. This book is the one weight on the scales of truth that exceeds the combined weight of all the critics' arguments. Why? Because if it is true, then Joseph Smith was a prophet and this is the restored Church of Jesus Christ, regardless of any historical or other arguments to the contrary. For this reason, the critics are intent on disproving the Book of Mormon, but the obstacles they face are insurmountable because this book is true.

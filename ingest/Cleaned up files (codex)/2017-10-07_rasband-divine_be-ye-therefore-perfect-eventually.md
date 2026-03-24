@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 The scriptures were written to bless and encourage us, and surely they do that. We thank heaven for every chapter and verse we have ever been given. But have you noticed that every now and then a passage will appear that reminds us we are falling a little short? For example, the Sermon on the Mount begins with soothing, gentle beatitudes, but in the verses that follow, we are told—among other things—not only not to kill but also not even to be angry. We are told not only not to commit adultery but also not even to have impure thoughts. To those who ask for it, we are to give our coat and then give our cloak also. We are to love our enemies, bless those who curse us, and do good to them who hate us.

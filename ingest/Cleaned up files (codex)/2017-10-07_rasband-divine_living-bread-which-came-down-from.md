@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 The day after Jesus miraculously fed the 5,000 in Galilee with only "five barley loaves, and two small fishes," He spoke to the people again in Capernaum. The Savior perceived that many were not so much interested in His teachings as they were in being fed again. Accordingly, He tried to convince them of the immensely greater value of "that meat which endureth unto everlasting life, which the Son of man shall give unto you." Jesus declared:

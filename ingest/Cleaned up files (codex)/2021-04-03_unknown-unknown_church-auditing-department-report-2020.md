@@ -15,6 +15,8 @@ needs_review: true
 notes: >-
   This website was scraped by Samuel Baird. Script:
   https://github.com/Samuel-Baird/pulpit
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 Dear Brethren: Directed by revelation, as recorded in section 120 of the Doctrine and Covenants, the Council on the Disposition of the Tithes—composed of the First Presidency, the Quorum of the Twelve Apostles, and the Presiding Bishopric—authorizes the expenditure of Church funds. Church entities disburse funds in accordance with approved budgets, policies, and procedures.

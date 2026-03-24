@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 Recently, as we met with President Thomas S. Monson, he expressed, with great solemnity and a countenance of happiness, how much he loves the Lord and that he knows that the Lord loves him. My dear brothers and sisters, I know that President Monson is very grateful for your love, your prayers, and your dedication to the Lord and His great gospel.

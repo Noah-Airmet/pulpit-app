@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 My dear brothers and sisters, I pray humbly that the Spirit of the Lord will be with us as I speak today. My heart is full of gratitude to the Lord, whose Church this is, for the inspiration we have felt in fervent prayers, inspired sermons, and angelic singing in this conference.

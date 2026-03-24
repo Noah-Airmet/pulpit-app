@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 I grew up in Rexburg, Idaho, where I was influenced and taught by a wonderful family, friends, teachers, and leaders. There are special experiences in the lives of all of us that touch our souls and make things different forever. One such experience happened in my youth. This experience transformed my life.

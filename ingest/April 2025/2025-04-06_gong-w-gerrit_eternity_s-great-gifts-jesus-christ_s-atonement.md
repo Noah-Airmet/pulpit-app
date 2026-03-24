@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-23"
 needs_review: true                # set false once a second person has verified
 notes: "No notes."
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 Years ago, our early-morning gospel class memorized Bible verses. Naturally I was drawn to short passages. This included John 11:35—the shortest verse in scripture, only two words—"Jesus wept."

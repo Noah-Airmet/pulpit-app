@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 Gordon's mother told him if he would finish his chores, she would make him a pie. His favorite kind. Just for him. Gordon went to work on getting those chores done, and his mother rolled out the pie. His older sister Kathy came into the house with a friend. She saw the pie and asked if she and her friend could have a slice.

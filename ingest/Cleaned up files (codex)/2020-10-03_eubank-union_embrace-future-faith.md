@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 This has been an unforgettable evening. My dear sisters, I am honored to be with you. You have been on my mind so often during these past few months. You are more than eight million strong. You have not only the numbers but the spiritual power to change the world. I have watched you doing just that during this pandemic.

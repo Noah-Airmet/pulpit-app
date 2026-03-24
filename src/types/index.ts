@@ -37,6 +37,8 @@ export interface TalkFormData {
   source_url: string
   source_type: string
   fidelity: string
+  calling: string
+  editor_tags: string
   fidelity_notes: string
   transcript_text: string
   notes: string

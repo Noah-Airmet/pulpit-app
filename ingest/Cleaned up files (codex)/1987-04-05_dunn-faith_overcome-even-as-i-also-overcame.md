@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 Events and circumstances in the last days make it imperative for us as members of the Church to become more grounded, rooted, established, and settled (see Col. 1:23; 2:7; 2 Pet. 1:12). Jesus said to His disciples, "settle this in your hearts, that ye will do the things which I shall teach, and command you" (JST, Luke 14:28). If not so settled, the turbulence will be severe. If settled, we will not be "tossed to and fro," whether by rumors, false doctrines, or by the behavioral and intellectual fashions of the world. Nor will we get caught up in the "talk show" mentality, spending our time like ancient Athenians "in nothing else, but either to tell, or to hear some new thing" (Acts 17:21). Why be concerned with the passing preferences of the world anyway? "For the fashion of this world passeth away" (1 Cor. 7:31).

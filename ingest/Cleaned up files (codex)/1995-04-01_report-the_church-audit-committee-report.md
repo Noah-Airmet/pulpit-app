@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 The Church Audit Committee is independent of all Church officers, employees, operations, and departments, including the Church Auditing Department, and reports directly to the First Presidency. We have access to all records and personnel necessary to perform our responsibility. We have reviewed the financial policies and procedures that provide controls over receipts and expenditures of funds and that safeguard assets of the Church and its controlled organizations, including budgeting, accounting and reporting, and the auditing systems and reports, for the year ended December 31, 1994.

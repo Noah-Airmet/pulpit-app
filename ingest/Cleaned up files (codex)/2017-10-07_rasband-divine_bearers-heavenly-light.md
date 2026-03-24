@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 An elderly man was standing in line at the post office to buy stamps at the service counter. A young woman noticed that he walked with difficulty and offered to show him how to buy stamps from a machine to save time. The elderly gentleman said, "Thank you, but I prefer waiting. The machine won't ask me about my arthritis."

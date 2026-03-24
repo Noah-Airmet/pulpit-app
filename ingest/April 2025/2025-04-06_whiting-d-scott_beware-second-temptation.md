@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-23"
 needs_review: true                # set false once a second person has verified
 notes: "No notes."
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 A couple of years ago, when I turned 12, I was invited to attend my first Aaronic Priesthood quorum overnight camp. This was a long-awaited invitation, as my father was a quorum leader and often went camping with the boys in the ward, while I was left at home.

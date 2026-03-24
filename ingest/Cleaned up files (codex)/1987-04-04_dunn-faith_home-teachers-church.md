@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 My beloved brethren of the priesthood, it has been a joy to be with you this evening and to be instructed by these choice men of God. I have felt of your power and faith, and I commend you for your attendance here tonight.

@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 On August 21 of this year, two rare events occurred that captured the attention of people around the world. The first was the 90th birthday celebration of our beloved prophet, President Thomas S. Monson. At the time, I was on assignment in the Pacific Area and was thrilled that the Saints of Australia, Vanuatu, New Zealand, and French Polynesia were not only aware of his personal milestone, but they also rejoiced in celebrating it. I felt fortunate to share in their warm expressions of faith and love for this great man. What an inspiration it is to see the connection Latter-day Saints share with their prophet.

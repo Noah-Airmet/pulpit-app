@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 My dear brethren, I am both honored and humbled about this assignment to speak with you tonight. I have often been asked, "How do you stand the pressure of coaching and remain so calm?" I can assure you, brethren, I feel real pressure standing before you this evening, especially with no more ability than I have as a speaker.

@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 I am grateful to be in your company tonight. The women of the Church of Jesus Christ have been moving toward becoming the society of sisters that the Prophet Joseph Smith's mother, Lucy Mack Smith, described in these words: "We must cherish one another, watch over one another, comfort one another and gain instruction, that we may all sit down in heaven together."

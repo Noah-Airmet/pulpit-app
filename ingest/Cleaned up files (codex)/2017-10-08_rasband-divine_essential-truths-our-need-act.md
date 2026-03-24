@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 When I was about seven years old, I asked my mother, "When you and I die and go to heaven, will you still be my mother?" She was not expecting such a question. But answering to the best of her knowledge, she said, "No, in heaven we are going to be brothers and sisters. I will not be your mother." That was not the answer I was hoping for.

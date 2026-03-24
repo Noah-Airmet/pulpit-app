@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 Several years ago, President Gordon B. Hinckley attended a college football game. He was there to announce that the stadium would be named after the team's longtime, beloved coach, who was about to retire. The team desperately wanted to win the game to honor their coach. President Hinckley was invited to visit the locker room and share some encouraging words. Inspired by his words, that team on that day went on to win that game and ended the season with a winning record.

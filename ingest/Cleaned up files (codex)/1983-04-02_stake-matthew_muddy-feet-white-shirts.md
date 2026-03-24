@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 When I first found out that I was going to be speaking to you tonight, I was sitting on the edge of my parents' bed, visiting with them after I had arrived home late that night. My parents' bed now tilts downward at a 45-degree angle, and my mom still carries a bruise on her left leg. Well, now that I've recovered, my dad says that I'm grateful to be here.

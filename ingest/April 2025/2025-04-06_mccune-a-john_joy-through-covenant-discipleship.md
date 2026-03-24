@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-23"
 needs_review: true                # set false once a second person has verified
 notes: "No notes."
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 One day in 2023, Uyanga Altansukh was at work in the northern Mongolian city of Darkhan when the Mongolian mission president entered her workplace. In her words:

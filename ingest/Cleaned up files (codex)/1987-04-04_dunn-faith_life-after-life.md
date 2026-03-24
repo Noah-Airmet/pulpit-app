@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 At this pulpit today, I am truly honored to follow the President of the Church, President Ezra Taft Benson. I sustain him as a living prophet of God! He was ordained an Apostle in 1943, before I entered medical school. Now he is the senior Apostle on earth, and I am privileged to add my gratitude for a prophet and for his message of instruction and inspiration.

@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 Tonight I feel especially blessed to speak as a bishop to the young men, holders of the Aaronic Priesthood, gathered from around the world for this general priesthood meeting. I share with you narrative from the Book of Mormon describing Helaman and his 2,000 stripling soldiers. This scripture will provide insight into the character of those ancient young men—and inspiration for you, latter-day young men. I quote a favorite scripture: "And they were all young men, and they were exceedingly valiant for courage, and also for strength and activity; but behold, this was not all—they were men who were true at all times." Courage, strength, activity, and truth—what admirable traits!

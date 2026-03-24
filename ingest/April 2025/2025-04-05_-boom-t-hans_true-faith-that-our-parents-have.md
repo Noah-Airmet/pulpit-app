@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-23"
 needs_review: true                # set false once a second person has verified
 notes: "No notes."
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 While I was visiting the Nashville Tennessee Temple for a temple review, I was privileged to do a walk-through as part of this assignment, reviewing this beautiful house of the Lord. I was especially impressed with the painting of Mary Wanlass called Carry On hanging on the wall in the office of the matron.

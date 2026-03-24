@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 What a magnificent world we live in and share, home to a great diversity of peoples, languages, customs, and histories—spread out over hundreds of countries and thousands of groups, each rich in culture. Mankind has much to be proud of and to celebrate. But though learned behavior—those things to which we are exposed by the cultures we grow up in—can serve as a great strength in our lives, it can also, at times, become a significant obstacle.

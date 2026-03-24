@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 President, I'm starting to receive the distinct impression that we've been listening to you. I, too, will take my text from the Book of Mormon, that great and ancient record that offers us special perspective that comes only from studying what is roughly one thousand years of human history. We see the cycles of nations as they turn to and then away from righteousness. We see the unity that comes from a faith in God and a desire to build His kingdom. And we see the dissension that results when the hearts of the people turn to selfish wants and desires, to the pleasures of the flesh, to riches and worldly possessions.

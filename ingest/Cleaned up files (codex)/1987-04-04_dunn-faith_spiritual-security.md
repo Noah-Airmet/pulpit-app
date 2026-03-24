@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 Since the beginning, truth and knowledge about ourselves and our environment have been a quest for the natural man and have led him to great scientific discoveries and also to debatable theories. There seems to be no limit to his questions, and the proposed answers that might have been true yesterday will probably change today and again tomorrow.

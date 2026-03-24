@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-23"
 needs_review: true                # set false once a second person has verified
 notes: "No notes."
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 Through the Prophet Joseph Smith, the Lord revealed a few things about our pre-earth life. There we existed as spirit children of God. Because God desired to help His children progress, He decided to create an earth on which we could receive a body, learn through experience, develop divine attributes, and be proven to see if we would keep God's commandments. Those who qualified would "have glory added upon their heads for ever and ever" (Abraham 3:26).

@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 This, brothers and sisters, is a very solemn occasion. We so approach it and should so conduct it. It will take quite a time; but if we are in the frame of mind and spirit which we should be in, I am sure it will not be tedious.

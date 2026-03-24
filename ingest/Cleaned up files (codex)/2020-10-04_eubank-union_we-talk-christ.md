@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 I express my love for you, our beloved friends and fellow believers. I have admired your faith and courage during these past months, as this worldwide pandemic has disrupted our lives and taken precious family members and dear friends.

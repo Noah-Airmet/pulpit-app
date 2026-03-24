@@ -1,4 +1,6 @@
 import { DropdownFilter } from '../ui/DropdownFilter'
+import { CALLING_OPTIONS, DEFAULT_EDITOR_TAGS } from '../../constants/talkMetadata'
+import { useState } from 'react'
 
 const ERAS = ['1830-1844', '1845-1850', '1850-1879', '1881-1896', '1897-present']
 
@@ -15,11 +17,15 @@ interface Props {
   era: string
   speaker: string
   fidelities: string[]
+  callings: string[]
+  editorTags: string[]
   yearFrom: string
   yearTo: string
   onEraChange: (era: string) => void
   onSpeakerChange: (speaker: string) => void
   onFidelitiesChange: (fidelities: string[]) => void
+  onCallingsChange: (callings: string[]) => void
+  onEditorTagsChange: (tags: string[]) => void
   onYearFromChange: (year: string) => void
   onYearToChange: (year: string) => void
   onReset: () => void
@@ -49,14 +55,18 @@ const inputStyle: React.CSSProperties = {
 }
 
 export function ArchiveFilters({
-  era, speaker, fidelities, yearFrom, yearTo,
+  era, speaker, fidelities, callings, editorTags, yearFrom, yearTo,
   onEraChange, onSpeakerChange, onFidelitiesChange,
+  onCallingsChange, onEditorTagsChange,
   onYearFromChange, onYearToChange, onReset,
 }: Props) {
+  const [customEditorTag, setCustomEditorTag] = useState('')
   const activeCount = [
     era ? 1 : 0,
     speaker ? 1 : 0,
     fidelities.length > 0 ? 1 : 0,
+    callings.length > 0 ? 1 : 0,
+    editorTags.length > 0 ? 1 : 0,
     yearFrom || yearTo ? 1 : 0,
   ].reduce((a, b) => a + b, 0)
 
@@ -72,6 +82,23 @@ export function ArchiveFilters({
     onEraChange(era === e ? '' : e)
     onYearFromChange('')
     onYearToChange('')
+  }
+
+  function toggleCalling(value: string) {
+    if (callings.includes(value)) onCallingsChange(callings.filter(c => c !== value))
+    else onCallingsChange([...callings, value])
+  }
+
+  function toggleEditorTag(value: string) {
+    if (editorTags.includes(value)) onEditorTagsChange(editorTags.filter(t => t !== value))
+    else onEditorTagsChange([...editorTags, value])
+  }
+
+  function addCustomEditorTag() {
+    const normalized = customEditorTag.trim().toLowerCase()
+    if (!normalized || editorTags.includes(normalized)) return
+    onEditorTagsChange([...editorTags, normalized])
+    setCustomEditorTag('')
   }
 
   return (
@@ -153,6 +180,75 @@ export function ArchiveFilters({
                 }}
               />
               {opt.label}
+            </label>
+          ))}
+        </div>
+      </DropdownFilter>
+
+      {/* Calling Filter */}
+      <DropdownFilter label="Calling" activeCount={callings.length}>
+        <span style={sectionLabel}>Calling Held At Time</span>
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem', maxHeight: '260px', overflowY: 'auto' }}>
+          {CALLING_OPTIONS.map(opt => (
+            <label key={opt} style={{ display: 'flex', alignItems: 'center', gap: '0.625rem', fontFamily: 'var(--font-ui)', fontSize: '0.8125rem', color: 'var(--color-ink-secondary)', cursor: 'pointer', padding: '0.25rem 0.5rem', borderRadius: '4px' }}>
+              <input
+                type="checkbox"
+                checked={callings.includes(opt)}
+                onChange={() => toggleCalling(opt)}
+                style={{ width: '16px', height: '16px', accentColor: 'var(--color-accent)', cursor: 'pointer' }}
+              />
+              {opt}
+            </label>
+          ))}
+        </div>
+      </DropdownFilter>
+
+      {/* Editorial Tags Filter */}
+      <DropdownFilter label="Editor tags" activeCount={editorTags.length}>
+        <span style={sectionLabel}>Editorial Issues</span>
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
+          {DEFAULT_EDITOR_TAGS.map(opt => (
+            <label key={opt} style={{ display: 'flex', alignItems: 'center', gap: '0.625rem', fontFamily: 'var(--font-ui)', fontSize: '0.8125rem', color: 'var(--color-ink-secondary)', cursor: 'pointer', padding: '0.25rem 0.5rem', borderRadius: '4px' }}>
+              <input
+                type="checkbox"
+                checked={editorTags.includes(opt)}
+                onChange={() => toggleEditorTag(opt)}
+                style={{ width: '16px', height: '16px', accentColor: 'var(--color-accent)', cursor: 'pointer' }}
+              />
+              {opt}
+            </label>
+          ))}
+          <div style={{ display: 'flex', gap: '0.5rem', marginTop: '0.25rem' }}>
+            <input
+              type="text"
+              value={customEditorTag}
+              onChange={e => setCustomEditorTag(e.target.value)}
+              onKeyDown={e => {
+                if (e.key === 'Enter') {
+                  e.preventDefault()
+                  addCustomEditorTag()
+                }
+              }}
+              placeholder="Custom tag"
+              style={{ ...inputStyle, minWidth: '140px' }}
+            />
+            <button
+              onClick={addCustomEditorTag}
+              type="button"
+              style={{ fontFamily: 'var(--font-ui)', fontSize: '0.75rem', padding: '0.375rem 0.625rem', borderRadius: 6, border: '1px solid var(--color-border)', background: 'white', cursor: 'pointer' }}
+            >
+              Add
+            </button>
+          </div>
+          {editorTags.filter(tag => !DEFAULT_EDITOR_TAGS.includes(tag as typeof DEFAULT_EDITOR_TAGS[number])).map(tag => (
+            <label key={tag} style={{ display: 'flex', alignItems: 'center', gap: '0.625rem', fontFamily: 'var(--font-ui)', fontSize: '0.8125rem', color: 'var(--color-ink-secondary)', cursor: 'pointer', padding: '0.25rem 0.5rem', borderRadius: '4px' }}>
+              <input
+                type="checkbox"
+                checked
+                onChange={() => toggleEditorTag(tag)}
+                style={{ width: '16px', height: '16px', accentColor: 'var(--color-accent)', cursor: 'pointer' }}
+              />
+              {tag}
             </label>
           ))}
         </div>

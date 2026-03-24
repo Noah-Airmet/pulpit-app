@@ -53,6 +53,8 @@ export interface Talk {
   source_url: string | null
   source_type: string
   fidelity: string
+  calling: string
+  editor_tags: string[]
   fidelity_notes: string | null
   alternate_sources: AlternateSource[]
   video_url: string | null

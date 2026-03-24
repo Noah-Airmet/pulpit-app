@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 The epic pioneer journey of the Latter-day Saints began on the banks of the Mississippi River. Here at Nauvoo they had transformed a swamp into a thriving community of commerce and fellowship. But Nauvoo was not to be a final home, merely a brief rest for a season. The severe persecution that had driven the Saints from Missouri again threatened their lives and their city. The Prophet Joseph Smith and Hyrum were martyred at Carthage Jail on June 27, 1844. Life in Nauvoo was drawing to a close.

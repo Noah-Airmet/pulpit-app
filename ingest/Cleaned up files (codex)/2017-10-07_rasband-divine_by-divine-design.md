@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 Brothers and sisters, as I stand here in this inspiring worldwide general conference and feel your strength and your spirits, I cannot help but think of the words of the Apostle Peter: "[Lord], it is good for us to be here."

@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 A few months ago I stood before a capacity audience in the Marriott Center on the campus of Brigham Young University. Mine was the responsibility to speak, to lift, to motivate, to inspire. There came to my mind the realization that here were men and women of promise. They represented the hopes, the dreams, and the aspirations of parents, of family, of teachers, of God. All were participants in the passing parade of mortality. Some were gifted in the arts, others leaned toward the humanities, while some found their talents prompted a study of the natural or physical sciences. These students stood on the stage of study. Soon they would disperse to make their marks in life, to fulfill the measure of their creation, and to learn from their own lives those lessons which would prepare them for the exaltation they seek.

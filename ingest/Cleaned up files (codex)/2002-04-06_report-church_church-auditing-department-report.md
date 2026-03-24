@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 Dear Brethren: The Church of Jesus Christ of Latter-day Saints maintains an auditing department that performs its work independently from all other Church departments and operations. The managing director of the Church Auditing Department reports directly and regularly to the First Presidency. Church Auditing Department staff consists of certified public accountants, certified internal auditors, and other qualified, credentialed professionals.

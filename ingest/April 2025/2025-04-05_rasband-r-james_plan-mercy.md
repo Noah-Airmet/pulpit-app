@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-23"
 needs_review: true                # set false once a second person has verified
 notes: "No notes."
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 Last April, soon after the joyful news that the Church had acquired the Kirtland Temple, President Russell M. Nelson invited us to study the dedicatory prayer of the Kirtland Temple, recorded in section 109 of the Doctrine and Covenants. The dedicatory prayer, said President Nelson, "is a tutorial about how the temple spiritually empowers you and me to meet the challenges of life in these last days."

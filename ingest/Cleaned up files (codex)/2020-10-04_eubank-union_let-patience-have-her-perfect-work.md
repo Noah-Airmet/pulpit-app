@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 Two years ago, my youngest brother, Chad, stepped through the veil. His transition to the other side left a hole in the heart of my sister-in-law Stephanie; their two small children, Braden and Bella; as well as the rest of the family. We found comfort in the words of Elder Neil L. Andersen in general conference the week before Chad died: "In the crucible of earthly trials, patiently move forward, and the Savior's healing power will bring you light, understanding, peace, and hope" ("Wounded," Ensign or Liahona, Nov. 2018, 85).

@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-23"
 needs_review: true                # set false once a second person has verified
 notes: "No notes."
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 The Atonement of Jesus Christ provides the ultimate rescue from the trials we face in this life. President Russell M. Nelson assigned me to dedicate the Casper Wyoming Temple late last year. It was a profound, emotional, and spiritual experience. It brought into clear focus the role temples play in rescuing God's children through the Savior's Atonement.

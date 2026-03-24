@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 Dear sisters, dear friends, to begin general conference with a worldwide sisters' session is significant and wonderful. Just imagine: sisters of all ages, backgrounds, nationalities, and languages united in faith and love for the Lord Jesus Christ.

@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 A friend of mine is having a difficult time in her life. Earlier this year she was struggling, and I didn't know how to help her. In my prayers I asked my Heavenly Father to bless her and to help me to be her friend. One day she became angry with me, and I did not understand. I didn't know how to react. I didn't want to say something wrong that might ruin our friendship, especially because this was a time when I felt she needed me. But after she became angry with me, I thought it would be too hard. I was considering giving up because I was discouraged.

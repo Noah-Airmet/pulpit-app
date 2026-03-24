@@ -17,6 +17,8 @@ needs_review: true
 notes: >-
   This website was scraped by Samuel Baird. Script:
   https://github.com/Samuel-Baird/pulpit
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 Brothers and sisters, it is proposed that we sustain Russell Marion Nelson as prophet, seer, and revelator and President of The Church of Jesus Christ of Latter-day Saints; Dallin Harris Oaks as First Counselor in the First Presidency; and Henry Bennion Eyring as Second Counselor in the First Presidency.

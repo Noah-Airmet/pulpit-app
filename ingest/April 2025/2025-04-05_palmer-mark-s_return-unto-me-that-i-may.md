@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-23"
 needs_review: true                # set false once a second person has verified
 notes: "No notes."
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 We once lived in a home surrounded by majestic trees. Next to the entrance was a beautiful willow tree. One sad night a mighty storm blew, and the willow came crashing down. It lay on the ground with its roots pulled out and was a sorry sight.
