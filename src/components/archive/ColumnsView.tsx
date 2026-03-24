@@ -118,8 +118,21 @@ function Column({ items, selectedId, onSelect, loading, title, isActive }: Colum
   )
 }
 
+function getDecades() {
+  const currentYear = new Date().getFullYear()
+  const currentDecade = Math.floor(currentYear / 10) * 10
+  const results = []
+  for (let d = currentDecade; d >= 1830; d -= 10) {
+    results.push({ id: d.toString(), label: `${d}s` })
+  }
+  return results
+}
+
+const INITIAL_DECADES = getDecades()
+
 export function ColumnsView() {
-  const [selectedDecade, setSelectedDecade] = useState<string | null>(null)
+  const decades = INITIAL_DECADES
+  const [selectedDecade, setSelectedDecade] = useState<string | null>(decades[0]?.id || null)
   const [selectedConference, setSelectedConference] = useState<string | null>(null)
   const [activeCol, setActiveCol] = useState(0)
   const containerRef = useRef<HTMLDivElement>(null)
@@ -129,17 +142,6 @@ export function ColumnsView() {
   
   const [loadingConferences, setLoadingConferences] = useState(false)
   const [loadingTalks, setLoadingTalks] = useState(false)
-
-  // Generate decades (1830s to 2020s)
-  const decades = useMemo(() => {
-    const currentYear = new Date().getFullYear()
-    const currentDecade = Math.floor(currentYear / 10) * 10
-    const results = []
-    for (let d = currentDecade; d >= 1830; d -= 10) {
-      results.push({ id: d.toString(), label: `${d}s` })
-    }
-    return results
-  }, [])
 
   // Load conferences when decade changes
   useEffect(() => {
