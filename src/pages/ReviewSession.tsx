@@ -23,7 +23,7 @@ function ReviewSessionContent() {
   const [completeError, setCompleteError] = useState('')
 
   const { talks, loading: talksLoading } = useTalks(sessionId)
-  const { approveTalk, rejectTalk, pending: talkPending } = useTalkActions()
+  const { approveTalk, rejectTalk, updateReviewedTalk, pending: talkPending } = useTalkActions()
   const { adminMarkFinal } = useSessionActions()
 
   useEffect(() => {
@@ -179,6 +179,7 @@ function ReviewSessionContent() {
               talk={talk}
               onApprove={approveTalk}
               onReject={rejectTalk}
+              onSaveEdits={updateReviewedTalk}
               pending={talkPending}
             />
           ))

@@ -132,5 +132,53 @@ export function useTalkActions() {
     return {}
   }
 
-  return { saveDraft, updateDraft, deleteDraft, approveTalk, rejectTalk, pending }
+  async function updateReviewedTalk(
+    talkId: string,
+    frontmatter: Record<string, string | number | boolean | null>,
+    body: string
+  ): Promise<{ error?: string }> {
+    if (!user) return { error: 'Not authenticated' }
+    setPending(talkId)
+    const md = `---
+${Object.entries(frontmatter).map(([key, value]) => {
+      if (value === null || value === '') return `${key}: null`
+      if (typeof value === 'boolean' || typeof value === 'number') return `${key}: ${value}`
+      const escaped = String(value).replace(/"/g, '\\"')
+      return `${key}: "${escaped}"`
+    }).join('\n')}
+---
+
+${body}`
+
+    const sourceValue = String(frontmatter.source ?? frontmatter.source_title ?? '').trim()
+    const talkDate = String(frontmatter.date ?? '').trim()
+    const updates = {
+      speaker: String(frontmatter.speaker ?? '').trim(),
+      talk_date: talkDate || null,
+      conference: String(frontmatter.conference ?? '').trim() || null,
+      session_label: String(frontmatter.session ?? '').trim() || null,
+      source_title: sourceValue,
+      source_url: String(frontmatter.source_url ?? '').trim() || null,
+      source_type: String(frontmatter.source_type ?? '').trim(),
+      fidelity: String(frontmatter.fidelity ?? '').trim(),
+      fidelity_notes: String(frontmatter.fidelity_notes ?? '').trim() || null,
+      transcript_text: body || null,
+      transcript_markdown: md,
+      collected_by: String(frontmatter.collected_by ?? '').trim() || null,
+      collected_date: String(frontmatter.collected_date ?? '').trim() || null,
+      needs_review: frontmatter.needs_review === true || frontmatter.needs_review === 'true',
+      notes: String(frontmatter.notes ?? '').trim() || null,
+    }
+
+    const { error } = await supabase
+      .from('talks')
+      .update(updates)
+      .eq('id', talkId)
+
+    setPending(null)
+    if (error) return { error: error.message }
+    return {}
+  }
+
+  return { saveDraft, updateDraft, deleteDraft, approveTalk, rejectTalk, updateReviewedTalk, pending }
 }
