@@ -150,9 +150,26 @@ export function Home() {
           A comprehensive archive with honest provenance metadata — who said it, where it was
           recorded, and how faithfully the text reflects the spoken word.
         </p>
-        <div style={{ marginTop: '2.5rem', color: 'var(--color-accent-light)', fontSize: '1rem' }}>
-          ✦
-        </div>
+        <Link
+          to="/archive"
+          style={{
+            display: 'inline-block',
+            fontFamily: 'var(--font-ui)',
+            fontSize: '1rem',
+            fontWeight: 500,
+            color: 'white',
+            background: 'var(--color-accent)',
+            padding: '0.75rem 2rem',
+            borderRadius: 8,
+            textDecoration: 'none',
+            transition: 'background 0.15s ease',
+            marginTop: '2.5rem',
+          }}
+          onMouseEnter={e => { e.currentTarget.style.background = 'var(--color-accent-hover)' }}
+          onMouseLeave={e => { e.currentTarget.style.background = 'var(--color-accent)' }}
+        >
+          Browse the archive →
+        </Link>
       </section>
 
       {/* Stats strip */}
