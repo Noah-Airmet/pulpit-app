@@ -225,8 +225,9 @@ export function Home() {
       )}
 
       {/* Era progress bars */}
-      <section
-        style={{
+      <div style={{ background: 'var(--color-paper)' }}>
+        <section
+          style={{
           maxWidth: 680,
           margin: '0 auto',
           padding: '4rem 1.5rem',
@@ -450,6 +451,7 @@ export function Home() {
           </div>
         </section>
       )}
+      </div>
     </div>
   )
 }
