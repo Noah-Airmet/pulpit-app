@@ -59,55 +59,59 @@ function Column({ items, selectedId, onSelect, loading, title, isActive }: Colum
             Loading...
           </div>
         ) : (
-          items.map(item => (
-            <button
-              key={item.id}
-              data-id={item.id}
-              onClick={() => onSelect(item.id)}
-              style={{
-                width: '100%',
-                textAlign: 'left',
-                padding: '0.625rem 0.75rem',
-                borderRadius: '6px',
-                border: 'none',
-                background: selectedId === item.id ? 'var(--color-accent)' : 'transparent',
-                color: selectedId === item.id ? 'white' : 'var(--color-ink)',
-                cursor: 'pointer',
-                fontFamily: 'var(--font-ui)',
-                fontSize: '0.875rem',
-                display: 'flex',
-                justifyContent: 'space-between',
-                alignItems: 'center',
-                transition: 'all 0.1s ease',
-                margin: '0.125rem 0',
-              }}
-            >
-              <div style={{ overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
-                {item.label}
-                {item.subLabel && (
-                  <div
-                    style={{
-                      fontSize: '0.75rem',
-                      opacity: 0.7,
-                      marginTop: '0.125rem',
-                      color: selectedId === item.id ? 'white' : 'var(--color-ink-secondary)',
-                    }}
-                  >
-                    {item.subLabel}
-                  </div>
-                )}
-              </div>
-              <svg width="6" height="10" viewBox="0 0 6 10" fill="none">
-                <path
-                  d="M1 1L5 5L1 9"
-                  stroke="currentColor"
-                  strokeWidth="1.5"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-              </svg>
-            </button>
-          ))
+          items.map(item => {
+            const isSelected = selectedId === item.id
+            const isFocused = isSelected && isActive
+            return (
+              <button
+                key={item.id}
+                data-id={item.id}
+                onClick={() => onSelect(item.id)}
+                style={{
+                  width: '100%',
+                  textAlign: 'left',
+                  padding: '0.625rem 0.75rem',
+                  borderRadius: '6px',
+                  border: 'none',
+                  background: isFocused ? 'var(--color-accent)' : isSelected ? 'var(--color-border)' : 'transparent',
+                  color: isFocused ? 'white' : 'var(--color-ink)',
+                  cursor: 'pointer',
+                  fontFamily: 'var(--font-ui)',
+                  fontSize: '0.875rem',
+                  display: 'flex',
+                  justifyContent: 'space-between',
+                  alignItems: 'center',
+                  transition: 'all 0.1s ease',
+                  margin: '0.125rem 0',
+                }}
+              >
+                <div style={{ overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
+                  {item.label}
+                  {item.subLabel && (
+                    <div
+                      style={{
+                        fontSize: '0.75rem',
+                        opacity: 0.7,
+                        marginTop: '0.125rem',
+                        color: isFocused ? 'white' : 'var(--color-ink-secondary)',
+                      }}
+                    >
+                      {item.subLabel}
+                    </div>
+                  )}
+                </div>
+                <svg width="6" height="10" viewBox="0 0 6 10" fill="none">
+                  <path
+                    d="M1 1L5 5L1 9"
+                    stroke="currentColor"
+                    strokeWidth="1.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </button>
+            )
+          })
         )}
       </div>
     </div>
@@ -201,9 +205,33 @@ export function ColumnsView() {
       e.preventDefault()
       
       if (e.key === 'ArrowRight') {
-        setActiveCol(c => Math.min(2, c + 1))
+        if (activeCol === 0) {
+          setActiveCol(1)
+          if (!selectedConference && conferences.length > 0) {
+            setSelectedConference(conferences[0].id)
+          }
+        } else if (activeCol === 1) {
+          if (!selectedConference && conferences.length > 0) {
+            setSelectedConference(conferences[0].id)
+          }
+          setActiveCol(2)
+          setTimeout(() => {
+            const links = containerRef.current?.querySelectorAll<HTMLAnchorElement>('.talk-link')
+            if (links && links.length > 0) {
+              const focused = document.activeElement as HTMLAnchorElement | null
+              if (!focused || !Array.from(links).includes(focused)) {
+                links[0].focus()
+              }
+            }
+          }, 0)
+        }
       } else if (e.key === 'ArrowLeft') {
-        setActiveCol(c => Math.max(0, c - 1))
+        if (activeCol === 2) {
+          setActiveCol(1)
+          containerRef.current?.focus()
+        } else if (activeCol === 1) {
+          setActiveCol(0)
+        }
       } else if (e.key === 'ArrowUp' || e.key === 'ArrowDown') {
         const dir = e.key === 'ArrowDown' ? 1 : -1
         
