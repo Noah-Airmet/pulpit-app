@@ -278,6 +278,7 @@ h1, h2, h3, h4, h5, h6 {
    ============================================================ */
 .bg-historical-texture {
   position: relative;
+  isolation: isolate;
 }
 
 .bg-historical-texture::before {
@@ -291,8 +292,8 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  opacity: 0.04;
+  opacity: 0.12;
   mix-blend-mode: multiply;
   pointer-events: none;
-  z-index: 0;
+  z-index: -1;
 }

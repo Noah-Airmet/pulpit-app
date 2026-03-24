@@ -113,13 +113,13 @@ export function Home() {
   }
 
   return (
-    <div>
+    <div className="bg-historical-texture">
       {/* Hero */}
       <section
         style={{
           padding: '5rem 1.5rem 4rem',
           textAlign: 'center',
-          background: 'var(--color-paper)',
+          background: 'transparent',
         }}
       >
         <h1
