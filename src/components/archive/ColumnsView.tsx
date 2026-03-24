@@ -1,4 +1,4 @@
-import { useState, useEffect, useMemo } from 'react'
+import { useState, useEffect, useMemo, useRef } from 'react'
 import { Link } from 'react-router-dom'
 import { supabase } from '../../lib/supabase'
 
@@ -8,9 +8,10 @@ interface ColumnProps {
   onSelect: (id: string) => void
   loading?: boolean
   title: string
+  isActive?: boolean
 }
 
-function Column({ items, selectedId, onSelect, loading, title }: ColumnProps) {
+function Column({ items, selectedId, onSelect, loading, title, isActive }: ColumnProps) {
   return (
     <div
       style={{
@@ -21,7 +22,8 @@ function Column({ items, selectedId, onSelect, loading, title }: ColumnProps) {
         height: '100%',
         display: 'flex',
         flexDirection: 'column',
-        background: 'white',
+        background: isActive ? 'white' : 'var(--color-paper)',
+        transition: 'background 0.2s ease',
       }}
     >
       <div
@@ -103,6 +105,8 @@ function Column({ items, selectedId, onSelect, loading, title }: ColumnProps) {
 export function ColumnsView() {
   const [selectedDecade, setSelectedDecade] = useState<string | null>(null)
   const [selectedConference, setSelectedConference] = useState<string | null>(null)
+  const [activeCol, setActiveCol] = useState(0)
+  const containerRef = useRef<HTMLDivElement>(null)
   
   const [conferences, setConferences] = useState<{ id: string; label: string; subLabel?: string }[]>([])
   const [talks, setTalks] = useState<{ id: string; label: string; subLabel?: string }[]>([])
@@ -140,7 +144,7 @@ export function ColumnsView() {
       if (!error && data) {
         // Unique conferences
         const unique = Array.from(new Set(data.map(d => d.conference)))
-          .map(c => ({ id: c, label: c }))
+          .map(c => ({ id: c, label: c.replace(' General Conference', '') }))
         setConferences(unique)
       }
       setLoadingConferences(false)
@@ -176,39 +180,84 @@ export function ColumnsView() {
 
   return (
     <div
+      ref={containerRef}
+      tabIndex={0}
+      onKeyDown={(e) => {
+        if (!['ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight'].includes(e.key)) return
+        if (e.altKey || e.ctrlKey || e.metaKey) return
+        e.preventDefault()
+        if (e.key === 'ArrowRight') {
+          setActiveCol(c => Math.min(2, c + 1))
+        } else if (e.key === 'ArrowLeft') {
+          setActiveCol(c => Math.max(0, c - 1))
+        } else if (e.key === 'ArrowUp' || e.key === 'ArrowDown') {
+          const dir = e.key === 'ArrowDown' ? 1 : -1
+          if (activeCol === 0) {
+            const idx = decades.findIndex(d => d.id === selectedDecade)
+            let nextIdx = idx === -1 ? 0 : idx + dir
+            if (nextIdx < 0) nextIdx = 0
+            if (nextIdx >= decades.length) nextIdx = decades.length - 1
+            setSelectedDecade(decades[nextIdx].id)
+            setSelectedConference(null)
+          } else if (activeCol === 1 && conferences.length > 0) {
+            const idx = conferences.findIndex(c => c.id === selectedConference)
+            let nextIdx = idx === -1 ? 0 : idx + dir
+            if (nextIdx < 0) nextIdx = 0
+            if (nextIdx >= conferences.length) nextIdx = conferences.length - 1
+            setSelectedConference(conferences[nextIdx].id)
+          } else if (activeCol === 2 && talks.length > 0) {
+            const links = containerRef.current?.querySelectorAll<HTMLAnchorElement>('.talk-link')
+            if (!links || links.length === 0) return
+            const focused = document.activeElement as HTMLAnchorElement
+            const idx = Array.from(links).findIndex(l => l === focused)
+            let nextIdx = idx === -1 ? 0 : idx + dir
+            if (nextIdx < 0) nextIdx = 0
+            if (nextIdx >= links.length) nextIdx = links.length - 1
+            links[nextIdx].focus()
+          }
+        }
+      }}
+      onClick={() => containerRef.current?.focus()}
       style={{
         display: 'flex',
         height: '600px',
         border: '1px solid var(--color-border-light)',
         borderRadius: '12px',
         overflow: 'hidden',
-        background: 'white',
+        background: 'var(--color-paper)',
         boxShadow: '0 4px 12px rgba(0,0,0,0.03)',
+        outline: 'none',
       }}
     >
       <Column
         title="Decade"
+        isActive={activeCol === 0}
         items={decades}
         selectedId={selectedDecade}
         onSelect={(id) => {
           setSelectedDecade(id)
           setSelectedConference(null)
           setTalks([])
+          setActiveCol(1)
         }}
       />
       
       {selectedDecade && (
         <Column
           title="Conference"
+          isActive={activeCol === 1}
           items={conferences}
           selectedId={selectedConference}
-          onSelect={(id) => setSelectedConference(id)}
+          onSelect={(id) => {
+            setSelectedConference(id)
+            setActiveCol(2)
+          }}
           loading={loadingConferences}
         />
       )}
       
       {selectedConference && (
-        <div style={{ flex: 2, display: 'flex', flexDirection: 'column', minWidth: '300px' }}>
+        <div style={{ flex: 2, display: 'flex', flexDirection: 'column', minWidth: '300px', background: activeCol === 2 ? 'white' : 'transparent', transition: 'background 0.2s ease' }}>
           <div
             style={{
               padding: '0.75rem 1rem',
@@ -229,11 +278,12 @@ export function ColumnsView() {
             ) : talks.length === 0 ? (
               <div style={{ padding: '2rem', textAlign: 'center', color: 'var(--color-ink-tertiary)' }}>Select a conference</div>
             ) : (
-              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(240px, 1fr))', gap: '0.5rem' }}>
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
                 {talks.map(talk => (
                   <Link
                     key={talk.id}
                     to={`/talk/${talk.id}`}
+                    className="talk-link"
                     style={{
                       padding: '0.875rem',
                       borderRadius: '8px',
