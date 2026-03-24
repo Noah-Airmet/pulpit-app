@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 When the bishop came to my house, speaking in general conference was the furthest thing from my mind. When the bishop said that he was going to speak for twelve minutes, I remarked that that would be scary. Then he asked if six minutes sounded better; I said that it would be much better. Then the bishop told me that was how long I was going to speak. My jaw dropped. I didn't know what to say. But I am grateful for the opportunity to speak tonight.

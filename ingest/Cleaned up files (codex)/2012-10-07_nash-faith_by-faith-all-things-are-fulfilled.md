@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 Not long ago several of us in the Nash family hiked to the top of Huayna Picchu, a tall peak adjoining the ancient Incan ruins of Machu Picchu in the mountains of Peru. It is a very steep climb with breathtaking views and precipitous drop-offs. Sadly, some hikers have lost their lives by falling off that narrow, steep trail. To avoid such tragedies, strong cables have since been secured to the solid rock along the mountainside of Huayna Picchu. We held to those cables as we climbed, and they enabled us to safely reach the summit, where the view was majestic!

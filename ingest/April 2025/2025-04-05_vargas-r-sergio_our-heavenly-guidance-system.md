@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-23"
 needs_review: true                # set false once a second person has verified
 notes: "No notes."
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 Jesus Christ changed my life when I was baptized at the age of 26 in my beloved Frutillar, Chile. At that time, my job took me across the ocean, rivers, and lakes of the beautiful Chilean Patagonia. After my baptism, I saw my work and my life in a new and different way, recognizing that truly "all things denote there is a God."

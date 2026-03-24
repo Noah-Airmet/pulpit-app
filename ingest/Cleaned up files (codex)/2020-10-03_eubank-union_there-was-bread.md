@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 Prior to travel restrictions caused by the current pandemic, I was returning home from an international assignment which, due to scheduling issues, created a Sunday layover. I had time between flights to attend a local sacrament meeting, where I was also able to share a brief message. Following the meeting, an enthusiastic deacon approached me and asked if I knew President Nelson and if I had ever had a chance to shake his hand. I answered that I did know him, that I had shaken his hand, and that, as a member of the Presiding Bishopric, I had the opportunity to meet with President Nelson and his counselors a couple of times each week.

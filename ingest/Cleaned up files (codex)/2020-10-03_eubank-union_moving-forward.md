@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 My dear brothers and sisters, what a joy it is to be with you as we begin the 190th Semiannual General Conference of The Church of Jesus Christ of Latter-day Saints. I love joining with you in your homes or wherever you are to listen together to the messages of prophets, seers, and revelators and other Church leaders.

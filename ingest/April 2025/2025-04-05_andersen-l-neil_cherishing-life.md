@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-23"
 needs_review: true                # set false once a second person has verified
 notes: "No notes."
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 Our Savior, Jesus Christ, taught us, "By this shall all men know that ye are my disciples, if ye have love one to another."

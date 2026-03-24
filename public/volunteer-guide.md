@@ -150,6 +150,36 @@ You don't need to be technical to contribute. Find the talk text, fill in a shor
 
 Everything is done through the Tracker on this website. No files, no Google Drive.
 
+## Talk Metadata Fields (Structured)
+
+These fields are structured metadata used by archive filters and editorial workflow. Populate them intentionally.
+
+### Calling held at time (`calling`)
+
+- **Meaning:** The speaker's church calling at the time this talk was given.
+- **Format:** Single string value.
+- **Multiple values allowed?** **No** (pick one best value).
+- **Examples:**
+  - `none` (default when unknown or not specified)
+  - `apostle`
+  - `first presidency`
+  - `seventy`
+  - `relief society presidency`
+  - `other`
+
+### Editor notes/tags (`editor_tags`)
+
+- **Meaning:** Structured editorial issues or follow-up tasks for this talk.
+- **Format:** Array/list of tags (strings).
+- **Multiple values allowed?** **Yes**.
+- **Examples:**
+  - `missing photo`
+  - `missing photos`
+  - `missing video`
+  - `missing videos`
+  - `missing footnotes`
+  - custom tags such as `needs source verification` or `check speaker spelling`
+
 ### Workflow
 
 1. **Claim a session.** Go to the Tracker, find an unclaimed conference session, and click Claim.

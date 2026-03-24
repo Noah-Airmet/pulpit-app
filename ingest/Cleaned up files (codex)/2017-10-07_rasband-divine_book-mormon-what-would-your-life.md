@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 In 1986, I was invited to give a special lecture at a university in Accra, Ghana. There I met a number of dignitaries, including an African tribal king. As we visited prior to the lecture, the king spoke to me only through his linguist, who then translated for me. I responded to the linguist, and the linguist then translated my responses to the king.

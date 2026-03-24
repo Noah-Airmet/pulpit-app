@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-23"
 needs_review: true                # set false once a second person has verified
 notes: "No notes."
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 Brothers and sisters, I am so grateful to be with you. We love you, we are grateful for you, and we feel blessed by your prayers.

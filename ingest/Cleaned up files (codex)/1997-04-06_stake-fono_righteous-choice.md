@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 It is a privilege for me to speak to you today. When I was asked to do this, I asked myself, "Why me?" I felt kind of scared. Then in my seminary class a girl gave a thought for opening devotional. She asked, "Do you find difficulties in opportunities or opportunities in difficulties?" I thought about this, and now I'm here!

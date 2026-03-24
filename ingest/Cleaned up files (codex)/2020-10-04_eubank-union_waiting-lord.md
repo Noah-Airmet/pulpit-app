@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 My beloved brothers and sisters, we are all eager—no one more than I—to hear concluding remarks from our beloved prophet, President Russell M. Nelson. This has been a marvelous conference, but it is the second time that COVID-19 has altered our traditional proceedings. We are so tired of this contagion, we feel like tearing our hair out. And apparently, some of my Brethren have already taken that course of action. Please know that we do pray constantly for those who have been affected in any way, especially for any who have lost loved ones. Everyone agrees that this has gone on much, much too long.

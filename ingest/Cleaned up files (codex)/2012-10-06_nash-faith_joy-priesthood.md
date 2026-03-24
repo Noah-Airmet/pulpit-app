@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 Many years ago a couple of fellow airline captains and I decided to fulfill a boyhood dream of restoring an antique airplane. Together we purchased a worn-down 1938 Piper Cub and started the work of returning it to its original form. The project was a labor of love. It had special meaning for me because I had learned to fly in a similar airplane when I was a young man.

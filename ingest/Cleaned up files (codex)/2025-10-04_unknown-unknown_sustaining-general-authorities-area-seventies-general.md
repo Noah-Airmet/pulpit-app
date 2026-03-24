@@ -14,6 +14,8 @@ collected_by: Samuel Baird
 collected_date: '2026-03-23'
 needs_review: true
 notes: No notes.
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 Brothers and sisters, I will now present the General Authorities, Area Seventies, and General Officers of The Church of Jesus Christ of Latter-day Saints for your sustaining vote.

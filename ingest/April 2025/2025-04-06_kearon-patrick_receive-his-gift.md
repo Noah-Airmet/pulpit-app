@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-23"
 needs_review: true                # set false once a second person has verified
 notes: "No notes."
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 Gift giving is a social custom that spans all cultures, civilisations, and millennia. Throughout time, people have given gifts to each other to strengthen relationships, express love and gratitude, and mark important events like weddings, birthdays, and holidays. And humans are not the only ones of God's creations to give gifts to each other! Among many other examples we could point to, penguins are known to give shiny pebbles to their prospective mates, and bonobos (cousins of the chimpanzee) give fruit to expand their circle of friendship.

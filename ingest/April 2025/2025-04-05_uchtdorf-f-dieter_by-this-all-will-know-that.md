@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-23"
 needs_review: true                # set false once a second person has verified
 notes: "No notes."
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 Many years ago Sister Uchtdorf and I were traveling through southern Germany. It was just before Easter, and we invited a good friend, who was not a member of the Church, to join us in our Sunday worship service. We loved this dear friend, so it was normal and natural to share with her how we felt about the Savior and His Church and to invite her to come and see! She accepted the invitation and joined us at the meetings of a nearby branch.

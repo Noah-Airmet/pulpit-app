@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 We have reviewed the annual financial report of the Church as of 31 December 1985 and the operations for the year then ended. The financial statements and operations reviewed by the committee include the general funds of the Church and of other controlled organizations, the accounts of which are maintained by the Finance and Records Department of the Church. We have also examined the budgeting, accounting, and auditing procedures employed and the manner in which funds are received and expenditures are controlled. We determined that expenditures of general Church funds were authorized by the First Presidency and by budgetary procedures. The budget is authorized by the Council on Disposition of Tithes, composed of the First Presidency, the Council of the Twelve, and the Presiding Bishopric. The Appropriations Committee, in weekly meetings, administers major expenditures under the budget.

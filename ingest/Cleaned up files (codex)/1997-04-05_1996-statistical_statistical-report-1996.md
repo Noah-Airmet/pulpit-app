@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 Brothers and sisters, for the information of the members of the Church, the First Presidency has issued the following statistical report concerning the growth and status of the Church as of 31 December 1996. These statistics are based on 1996 reports available prior to this conference.

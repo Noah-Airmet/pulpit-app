@@ -18,6 +18,7 @@ import { createClient } from '@supabase/supabase-js'
 import matter from 'gray-matter'
 import { readFileSync, readdirSync, statSync } from 'fs'
 import { join, extname } from 'path'
+import { CALLING_OPTIONS } from '../src/constants/talkMetadata'
 
 // ── Env ────────────────────────────────────────────────────────────────────────
 
@@ -84,6 +85,8 @@ interface TalkRow {
   source_url: string | null
   source_type: string
   fidelity: string
+  calling: string
+  editor_tags: string[]
   fidelity_notes: string | null
   transcript_text: string | null
   transcript_markdown: string
@@ -128,6 +131,10 @@ function parseFile(filePath: string): TalkRow | null {
     source_url: fm.source_url?.toString().trim() || null,
     source_type: sourceType,
     fidelity,
+    calling: CALLING_OPTIONS.includes(fm.calling?.toString().trim().toLowerCase()) ? fm.calling.toString().trim().toLowerCase() : 'none',
+    editor_tags: Array.isArray(fm.editor_tags) && fm.editor_tags.length > 0
+      ? fm.editor_tags.map((tag: unknown) => String(tag).trim().toLowerCase()).filter(Boolean)
+      : ['missing footnotes'],
     fidelity_notes: fm.fidelity_notes?.toString().trim() || null,
     transcript_text: content.trim() || null,
     transcript_markdown: raw,          // store the full original file verbatim

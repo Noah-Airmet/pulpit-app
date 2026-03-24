@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-23"
 needs_review: true                # set false once a second person has verified
 notes: "No notes."
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 At the end of a long overseas assignment, my wife, Lesa, and I stepped into an airport terminal in preparation for just one more flight—a red-eye—to get home. As we stood with many others moving a step at a time in long lines, we could feel the growing anxiety of fellow travelers worried about making flights, getting through passport and visa review, and successfully navigating security checks.

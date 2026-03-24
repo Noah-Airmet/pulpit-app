@@ -15,6 +15,8 @@ needs_review: true
 notes: >-
   This website was scraped by Samuel Baird. Script:
   https://github.com/Samuel-Baird/pulpit
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 I will now present the General Authorities, Area Seventies, and General Auxiliary Presidencies of the Church for sustaining vote.

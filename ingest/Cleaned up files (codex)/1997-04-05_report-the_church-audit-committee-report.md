@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 The Church Audit Committee consists of three members who are independent of all Church officers, employees, departments, and Church-owned businesses and affiliates. We report directly to the First Presidency and have access to all records and personnel necessary to perform our responsibilities.

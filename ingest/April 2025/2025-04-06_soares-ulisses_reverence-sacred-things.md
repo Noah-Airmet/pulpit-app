@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-23"
 needs_review: true                # set false once a second person has verified
 notes: "No notes."
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 In the book of Exodus, we travel with Moses to the slopes of Mount Horeb as he turned aside from his daily cares—something we all should be willing to do—to see the burning bush that was not consumed. As he approached, "God called unto him out of the midst of the bush, and said, Moses, Moses. And he said, Here am I. And [God] said, … put off thy shoes from off thy feet, for the place whereon thou standest is holy ground." In great reverence, humility, and wonder, Moses removed his shoes and prepared himself to hear the word of the Lord and to experience His holy presence.

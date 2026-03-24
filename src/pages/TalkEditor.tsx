@@ -81,6 +81,8 @@ function TalkEditorContent() {
       source_url: talk.source_url ?? '',
       source_type: talk.source_type,
       fidelity: talk.fidelity,
+      calling: talk.calling ?? 'none',
+      editor_tags: (talk.editor_tags ?? []).join(', '),
       fidelity_notes: talk.fidelity_notes ?? '',
       transcript_text: talk.transcript_text ?? '',
       notes: talk.notes ?? '',

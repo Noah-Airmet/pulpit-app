@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 One hundred seventy years ago, Brigham Young looked across the Salt Lake Valley for the first time and declared, "This is the right place!" He knew the place because the Lord had revealed it to him.

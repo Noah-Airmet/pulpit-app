@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 My dear brothers and sisters, President Monson has asked that I now present to you the General Authorities, Area Seventies, and General Auxiliary Presidencies of the Church for your sustaining vote.

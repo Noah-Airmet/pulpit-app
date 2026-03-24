@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 I reached a special milestone this summer—I observed my 90th birthday. As you reach certain milestones in your life, it is helpful and instructive to reflect on the events and experiences of the past. You young people listening to or reading this talk may not be too impressed with 90 years of life, but at the time I was born, living this long was considered a great achievement. Every day I am grateful to Heavenly Father for blessing me with a long life.

@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 After my call to the Relief Society general presidency, I felt a desire to know more about the women who had served before me. I was impressed by the teachings of Sister Zina D. Young, first counselor in the second Relief Society general presidency. She said, "Sisters, it is for us to be wide awake to our duties." I pondered on the words awake and duty and did some additional searching in the scriptures.

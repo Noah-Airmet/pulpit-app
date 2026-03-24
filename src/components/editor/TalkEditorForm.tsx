@@ -2,6 +2,7 @@ import { useState } from 'react'
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import type { TalkFormData } from '../../types'
+import { CALLING_OPTIONS } from '../../constants/talkMetadata'
 
 const SOURCE_TYPES = [
   { value: 'original_manuscript',     label: 'Original Manuscript',     desc: 'Handwritten minutes or attendee notes' },
@@ -99,6 +100,8 @@ const EMPTY_FORM: TalkFormData = {
   source_url: '',
   source_type: '',
   fidelity: '',
+  calling: 'none',
+  editor_tags: 'missing footnotes',
   fidelity_notes: '',
   transcript_text: '',
   notes: '',
@@ -220,6 +223,8 @@ export function TalkEditorForm({
                 ['Source', form.source_title],
                 ['Source type', form.source_type || '—'],
                 ['Fidelity', form.fidelity || '—'],
+                ['Calling', form.calling || '—'],
+                ['Editor tags', form.editor_tags || '—'],
               ].map(([k, v]) => (
                 <div key={k}>
                   <span style={{ fontFamily: 'var(--font-ui)', fontSize: '0.75rem', textTransform: 'uppercase', letterSpacing: '0.05em', color: 'var(--color-ink-tertiary)' }}>{k}</span>
@@ -287,6 +292,25 @@ export function TalkEditorForm({
                       <option key={o.value} value={o.value}>{o.label} — {o.desc}</option>
                     ))}
                   </select>
+                </Field>
+              </div>
+              <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem' }}>
+                <Field label="Calling held at time">
+                  <select value={form.calling} onChange={e => set('calling', e.target.value)} style={inputStyle}>
+                    {CALLING_OPTIONS.map(option => (
+                      <option key={option} value={option}>
+                        {option}
+                      </option>
+                    ))}
+                  </select>
+                </Field>
+                <Field label="Editor tags" hint="Comma-separated tags (e.g. missing footnotes, missing photo)">
+                  <input
+                    type="text"
+                    value={form.editor_tags}
+                    onChange={e => set('editor_tags', e.target.value)}
+                    style={inputStyle}
+                  />
                 </Field>
               </div>
               <Field label="Fidelity notes" hint="Optional: explain the source quality, known editorial changes, relevant scholarship">

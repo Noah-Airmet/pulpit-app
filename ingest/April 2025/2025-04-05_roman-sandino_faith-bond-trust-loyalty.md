@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-23"
 needs_review: true                # set false once a second person has verified
 notes: "No notes."
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 When I was 17, I made an agreement with my friend José Luis to teach him how to swim. So one morning we dedicated time to practice. When our lesson was over and I was leaving the pool, I heard my friend shouting for help. He was drowning in the deep end of the pool.

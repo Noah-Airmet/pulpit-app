@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-23"
 needs_review: true                # set false once a second person has verified
 notes: "No notes."
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 President Russell M. Nelson recently invited us to "make our discipleship our highest priority." That powerful invitation has stirred me to ponder deeply about my personal discipleship of Jesus Christ.

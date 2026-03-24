@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 My dear brothers and sisters, these two days of general conference have been glorious! I agree with Elder Jeffrey R. Holland. As he mentioned, the messages, the prayers, and the music have all been inspired by the Lord. I am grateful to all who have participated in any way.

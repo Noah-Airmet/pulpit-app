@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 I am a stake Young Women leader, and like leaders in wards and stakes around the world, I've been looking for significant ways to nourish the word. Gratefully, we can turn to the formula Alma gives us in chapter 32, verse 41. He says: "But if ye will nourish the word, yea, nourish the tree as it beginneth to grow, by your faith with great diligence, and with patience, looking forward to the fruit thereof, it shall take root; and behold it shall be a tree springing up unto everlasting life."

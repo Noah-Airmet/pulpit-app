@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 To Moses, God declared, "I have a work for thee" (Moses 1:6). Have you ever wondered if Heavenly Father has a work for you? Are there important things He has prepared you—and specifically you—to accomplish? I testify the answer is yes!

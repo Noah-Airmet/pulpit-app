@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 Brethren, much has been said and written in recent years about the challenges of men and boys. A sampling of book titles, for example, includes Why There Are No Good Men Left, The Demise of Guys, The End of Men, Why Boys Fail, and Manning Up. Interestingly, most of these seem to have been written by women. In any case, a common thread running through these analyses is that in many societies today men and boys get conflicting and demeaning signals about their roles and value in society.

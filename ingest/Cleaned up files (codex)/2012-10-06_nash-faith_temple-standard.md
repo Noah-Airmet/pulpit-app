@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 While recently touring the beautiful Brigham City Utah Temple, I was reminded of an experience that I had while serving as the coordinator of the open house, rededication, and cultural celebration of the historic Laie Hawaii Temple.

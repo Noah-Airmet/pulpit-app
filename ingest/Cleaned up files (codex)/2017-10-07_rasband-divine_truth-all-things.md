@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 We come tonight with the hope and faith that in some way, we will leave strengthened and blessed by the Holy Ghost, who teaches truth. It is about our individual search for truth that I wish to speak.

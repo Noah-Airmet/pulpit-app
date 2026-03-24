@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 Brothers and sisters, President Hinckley has requested that I now handle the business of the solemn assembly for which we are met. This is an occasion of great significance for members of The Church of Jesus Christ of Latter-day Saints throughout the world. We shall vote by quorums and groups. Wherever you are, you are invited to stand when requested and express by your uplifted hand whether you choose to sustain those whose names will be presented. Those who are standing when appropriately called upon would be the ones who would be given the privilege to vote.

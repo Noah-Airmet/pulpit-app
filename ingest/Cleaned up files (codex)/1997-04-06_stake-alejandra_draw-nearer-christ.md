@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 I have had the gospel in my home from birth, and thus my parents have always taken care to teach me good principles. In spite of that, I changed a lot during my junior high school years. I decided to take the way that seemed more fun and apparently easier too. I let myself be guided by my friends' counsel to dress inappropriately, to go to undesirable parties, and even to use bad language once in a while.

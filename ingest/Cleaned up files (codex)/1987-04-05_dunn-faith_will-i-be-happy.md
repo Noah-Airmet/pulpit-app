@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 As we come to the closing minutes of this great conference, our souls are subdued and lifted by the inspiring messages of counsel and hope we have heard. I come prayerfully to this pulpit—not to judge, but to teach and to caution.

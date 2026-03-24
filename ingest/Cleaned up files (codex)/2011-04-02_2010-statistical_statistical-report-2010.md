@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 The First Presidency has issued the following statistical report of the Church for 2010. As of December 31, 2010, there were 2,896 stakes, 340 missions, 614 districts, and 28,660 wards and branches.

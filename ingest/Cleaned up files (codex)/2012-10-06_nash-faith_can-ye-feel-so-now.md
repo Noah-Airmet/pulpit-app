@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 President Monson, we love, honor, and sustain you! This historically significant announcement with respect to missionary service is inspiring. I can remember the excitement in 1960 when the age for young men serving was reduced from 20 years of age to 19. I arrived in the British Mission as a newly called 20-year-old. The first 19-year-old in our mission was Elder Jeffrey R. Holland, an incredible addition. He was a few months shy of being 20. Then over the course of a year, many more 19-year-olds arrived. They were obedient and faithful missionaries, and the work progressed. I am confident that an even greater harvest will be achieved now as righteous, committed missionaries fulfill the Savior's commandment to preach His gospel.

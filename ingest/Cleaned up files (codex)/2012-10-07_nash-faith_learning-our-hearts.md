@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 "Come unto me, that ye might feel and see." This was a commandment that the Savior extended to the inhabitants of ancient America. They felt with their hands and saw with their eyes that Jesus was the Christ. This commandment is just as important for us today as it was for them in their day. As we come unto Christ, we can feel and "know of a surety"—not with our hands and eyes but with all our heart and mind—that Jesus is the Christ.

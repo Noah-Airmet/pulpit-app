@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 Early one morning, I saw a hungry and well-camouflaged caterpillar on a beautiful rosebush. From the look of some of the leafless shoots, it was obvious to even the casual observer that it had been gnawing its way through the tender leaves with its menacing jaws. Allegorically, I could not help but think that there are some people who are like this caterpillar; they are found throughout the world, and some are so cleverly disguised that we may allow them into our lives, and before we know it, they have eaten away at our spiritual roots and those of our family members and friends.

@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 The Audit Committee is independent of all Church officers, employees, and operations and has access to all records relevant to the committee's responsibility. We have reviewed the adequacy of controls over receipts and expenditures of funds and other procedures that safeguard the assets of the Church and its controlled organizations, including budgeting, accounting and auditing systems, and the related financial statements of the Church for the year ending 31 December 1991.

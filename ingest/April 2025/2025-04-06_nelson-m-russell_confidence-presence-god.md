@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-23"
 needs_review: true                # set false once a second person has verified
 notes: "No notes."
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 My dear brothers and sisters, I am grateful to speak to you today in this important general conference. My eyes continue to get older. Thank you for your understanding as I deliver my message.

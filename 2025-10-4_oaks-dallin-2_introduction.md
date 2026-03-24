@@ -36,6 +36,8 @@ fidelity_notes: "Official version from the church website."
 collected_by: "noah-airmet"
 collected_date: "2026-03-23"
 needs_review: true                # set false once a second person has verified
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 My dear brothers and sisters, we meet as we mourn the death of our beloved President Russell M. Nelson. I speak to you as the President of the Quorum of the Twelve, in which position I have already been sustained in each of our ward, stake, and general conferences for the past seven and a half years.

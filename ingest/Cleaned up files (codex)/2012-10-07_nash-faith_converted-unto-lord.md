@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 My message focuses upon the relationship between receiving a testimony that Jesus is the Christ and becoming converted to Him and His gospel. Typically, we treat the topics of testimony and conversion separately and independently. However, we gain precious perspective and greater spiritual conviction as we consider these two important subjects together.

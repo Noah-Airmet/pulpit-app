@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 Four months ago, in my study of the scriptures, I was reading about Alma's mission in Ammonihah when I came across this suggestion in Come, Follow Me: "As you read about the great blessings God gave the people of Nephi (see Alma 9:19–23), ponder the great blessings He has given you." I decided to make a list of God's blessings to me and record it in my digital version of the manual. In a matter of minutes, I had listed 16 blessings.

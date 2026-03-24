@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-23"
 needs_review: true                # set false once a second person has verified
 notes: "No notes."
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 My dear brothers and sisters, last October, President Russell M. Nelson taught, "Now is the time for you and for me to prepare for the Second Coming of our Lord and Savior, Jesus the Christ." When President Nelson speaks about the Second Coming, it is always with joyful optimism. However, a girl in Primary recently told me that she becomes anxious whenever the Second Coming is mentioned. She said, "I'm scared because bad things are going to happen before Jesus comes again."

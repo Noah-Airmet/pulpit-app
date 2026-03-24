@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-23"
 needs_review: true                # set false once a second person has verified
 notes: "No notes."
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 My dear brothers and sisters, it is a joy for me to be with you in this general conference of The Church of Jesus Christ of Latter-day Saints. This is His Church. We are gathered in buildings and homes all over the world in His name.

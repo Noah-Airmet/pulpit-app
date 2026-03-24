@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 In the spring of 1998, Carol and I were able to combine a business trip with a family vacation and bring our four children, along with my recently widowed mother-in-law, to Hawaii for a few days.

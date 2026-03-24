@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-23"
 needs_review: true                # set false once a second person has verified
 notes: "No notes."
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 One summer while traveling in a remote area, our family spent an evening sleeping outdoors under a cloudless sky. Clearly visible above us was the magnificent Milky Way, filled with innumerable stars and the occasional shooting star. While we marveled at the majesty of God's creation, we felt a reverent connection to Him. Our young children, who had grown up in Hong Kong, had never experienced anything like this before. They innocently asked if we lived under the same sky back home. I tried to explain to them that it was the same sky, but air and light pollution where we lived prevented us from seeing these stars even though they were there.

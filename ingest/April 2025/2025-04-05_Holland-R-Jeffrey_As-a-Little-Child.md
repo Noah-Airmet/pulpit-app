@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-23"
 needs_review: true                # set false once a second person has verified
 notes: "No notes."
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 Jesus began the last year of His mortal life by intensifying the training of His Apostles. If His message and His Church were to survive Him, more had to be pressed into the hearts of 12 very ordinary men who had known Him for scarcely 24 months.

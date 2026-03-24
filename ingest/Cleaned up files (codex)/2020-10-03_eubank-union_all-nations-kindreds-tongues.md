@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 Dear brothers and sisters, I recently officiated in a temple sealing, following COVID-19 guidelines. With the bride and groom, both faithful returned missionaries, were their parents and all their siblings. This was not easy. The bride is the ninth of ten children. Her nine siblings sat in order, oldest to youngest, socially distanced of course.

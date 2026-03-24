@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 My beloved brothers and sisters, this conference marks 49 years since I was sustained, on October 4, 1963, as a member of the Quorum of the Twelve Apostles. Forty-nine years is a long time. In many ways, however, the time seems very short since I stood at the pulpit in the Tabernacle and gave my very first general conference address.

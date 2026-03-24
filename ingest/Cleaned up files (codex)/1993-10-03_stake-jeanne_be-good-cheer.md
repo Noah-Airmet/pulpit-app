@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 When I was seventeen years old, I received a patriarchal blessing. I was admonished to seek a companion who could take me to the temple and blessed that I would become a mother in Israel. I subsequently took it for granted that I would finish high school, continue my studies for some time, and then marry and begin a family.

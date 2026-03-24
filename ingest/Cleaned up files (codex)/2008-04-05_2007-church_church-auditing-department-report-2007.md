@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 Dear Brethren: As prescribed by revelation in section 120 of the Doctrine and Covenants, the Council on the Disposition of the Tithes authorizes the expenditure of Church funds. This council is composed of the First Presidency, the Quorum of the Twelve Apostles, and the Presiding Bishopric. This council approves budgets for Church departments and operations. After receiving the council's authorization, Church departments are to expend funds consistent with approved budgets and in accordance with Church policies and procedures.

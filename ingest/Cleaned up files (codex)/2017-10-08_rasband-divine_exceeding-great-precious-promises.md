@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 One of the great challenges each of us faces every day is to not allow the concerns of this world to so dominate our time and energy that we neglect the eternal things that matter most. We can be too easily diverted from remembering and focusing upon essential spiritual priorities because of our many responsibilities and busy schedules. Sometimes we try to run so fast that we may forget where we are going and why we are running.

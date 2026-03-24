@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 I am a cross-country and track distance runner. Sometimes three miles on rough terrain can seem like an eternity. I have learned to endure to the end and to tolerate hard work and many physical and emotional challenges. Sometimes my mind screamed to stop and quit the race or the difficult practice, but I had to mentally and physically endure to the end. I have found that no matter how hard it was to run a race or finish a tough practice, nothing beats the satisfaction I get from knowing that I didn't give up.

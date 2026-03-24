@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 The Lion King is a classic animated film about the African savanna. When the lion king dies while saving his son, the young lion prince is forced into exile while a despot ruler destroys the balance of the savanna. The lion prince reclaims the kingdom through the help of a mentor. His eyes are opened to the necessity of balance in the great circle of life on the savanna. Claiming his rightful place as king, the young lion followed counsel to "look beyond what you see."

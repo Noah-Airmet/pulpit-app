@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 My beloved brothers, sisters, and friends, we extend our love and greetings to each of you. We are thrilled with President Thomas S. Monson's announcement this morning, which adjusts the minimum age for missionary service to 18 for young men and 19 for young women. Through this option, more of our youth may enjoy the blessings of a mission.

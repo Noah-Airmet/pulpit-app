@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-23"
 needs_review: true                # set false once a second person has verified
 notes: "No notes."
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 Several years ago on a trip to Florida, I sat outside reading a book. Its title suggested that we can still make it to heaven, even though we're not perfect now. A woman walking by asked, "Do you think it's possible?"

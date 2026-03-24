@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 My dear brothers and sisters, since last general conference, I have felt in my own life the power of priesthood blessings and the power of the faith and prayers of Church members. For many years, I have given blessings to others. I have fasted and prayed for their well-being and have exercised my faith for their recovery. Recently, during a serious illness, I was the recipient of such faith, prayers, and blessings. I thank you, brothers and sisters, for the prayers that you have offered in my behalf.

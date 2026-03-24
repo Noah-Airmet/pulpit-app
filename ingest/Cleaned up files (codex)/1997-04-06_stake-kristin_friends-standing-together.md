@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 Like each of you, I have had to use faith and be a pioneer in my life. My first real experience happened when I was in the second grade. My teacher came to our class and told us how a "special" girl would soon join us. I remember imagining the girl to see what she would be like.

@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 In June 1994, I was anxiously driving back home from work to watch on TV our national soccer team play in the World Cup. Soon after I started my journey, I saw from afar on the sidewalk a man quickly moving forward in a wheelchair, which I noticed was decorated with our Brazilian flag. I knew then he was also going home to watch the game!

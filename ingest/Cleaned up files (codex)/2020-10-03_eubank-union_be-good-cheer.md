@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 In the final days of His mortal life, Jesus Christ told His Apostles of the persecutions and hardships they would suffer. He concluded with this great assurance: "In the world ye shall have tribulation: but be of good cheer; I have overcome the world" (John 16:33). That is the Savior's message to all of our Heavenly Father's children. That is the ultimate good news for each of us in our mortal lives.

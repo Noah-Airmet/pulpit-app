@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-23"
 needs_review: true                # set false once a second person has verified
 notes: "No notes."
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 Ten lepers hollered to the Savior, "Have mercy on us." And Jesus did. He told them to show themselves to the priest, and as they went, they were cleansed of the disease.

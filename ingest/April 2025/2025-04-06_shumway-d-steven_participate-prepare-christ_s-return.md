@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-23"
 needs_review: true                # set false once a second person has verified
 notes: "No notes."
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 A few months ago, I was standing in a hall when Elder Neil L. Andersen walked by. I had just been called as a new General Authority. Likely sensing my feelings of inadequacy, he smiled and said, "Well, there looks like a man who has no idea what he is doing."

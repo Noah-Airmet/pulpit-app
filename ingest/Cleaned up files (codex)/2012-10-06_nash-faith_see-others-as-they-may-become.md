@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 My dear brethren, twice each year this magnificent Conference Center is filled to capacity with the priesthood of God as we gather to hear messages of inspiration. There is a marvelous spirit which permeates the general priesthood meeting of the Church. This spirit emanates from the Conference Center and enters every building where the sons of God assemble. We have surely felt that spirit tonight.

@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 While reading the Book of Mormon for a Come, Follow Me lesson last summer, I was struck by Alma's report that when he became fully conscious of his sins, there was "nothing so exquisite and so bitter as were [his] pains." I confess, talk of exquisite pain caught my attention partly due to my battle that week with a seven-millimeter kidney stone. Never has one man experienced such "great things" when such a "small and simple" thing was "brought to pass."

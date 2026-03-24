@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 Those of us who have entered into the waters of baptism and received the gift of the Holy Ghost have covenanted that we are willing to take upon ourselves the name of Jesus Christ, or in other words, we declare ourselves to be disciples of the Lord. We renew that covenant each week as we partake of the sacrament, and we demonstrate that discipleship by the way that we live. Such discipleship was beautifully demonstrated in recent events in Mexico.

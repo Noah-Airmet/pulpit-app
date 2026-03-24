@@ -3,7 +3,19 @@ import { supabase } from '../lib/supabase'
 import { useAuth } from './useAuth'
 import type { TalkFormData } from '../types'
 
+function parseEditorTags(raw: string): string[] {
+  return Array.from(
+    new Set(
+      raw
+        .split(',')
+        .map(tag => tag.trim().toLowerCase())
+        .filter(Boolean)
+    )
+  )
+}
+
 function buildMarkdown(form: TalkFormData, conference: string, collectedBy: string): string {
+  const editorTags = parseEditorTags(form.editor_tags)
   return `---
 speaker: "${form.speaker}"
 date: "${form.talk_date}"
@@ -13,6 +25,8 @@ source_title: "${form.source_title}"
 source_url: ${form.source_url ? `"${form.source_url}"` : 'null'}
 source_type: "${form.source_type}"
 fidelity: "${form.fidelity}"
+calling: "${form.calling || 'none'}"
+editor_tags: [${editorTags.map(tag => `"${tag}"`).join(', ')}]
 fidelity_notes: ${form.fidelity_notes ? `"${form.fidelity_notes}"` : 'null'}
 collected_by: "${collectedBy}"
 collected_date: "${new Date().toISOString().split('T')[0]}"
@@ -36,6 +50,7 @@ export function useTalkActions() {
     setPending('saving')
     const collectedBy = profile.display_name ?? user.email ?? 'Unknown'
     const md = buildMarkdown(form, conference, collectedBy)
+    const editorTags = parseEditorTags(form.editor_tags)
     const { data, error } = await supabase
       .from('talks')
       .insert({
@@ -48,6 +63,8 @@ export function useTalkActions() {
         source_url: form.source_url || null,
         source_type: form.source_type,
         fidelity: form.fidelity,
+        calling: form.calling || 'none',
+        editor_tags: editorTags.length > 0 ? editorTags : ['missing footnotes'],
         fidelity_notes: form.fidelity_notes || null,
         transcript_text: form.transcript_text || null,
         transcript_markdown: md,
@@ -74,6 +91,7 @@ export function useTalkActions() {
     setPending(talkId)
     const collectedBy = profile.display_name ?? user.email ?? 'Unknown'
     const md = buildMarkdown(form, conference, collectedBy)
+    const editorTags = parseEditorTags(form.editor_tags)
     const { error } = await supabase
       .from('talks')
       .update({
@@ -84,6 +102,8 @@ export function useTalkActions() {
         source_url: form.source_url || null,
         source_type: form.source_type,
         fidelity: form.fidelity,
+        calling: form.calling || 'none',
+        editor_tags: editorTags.length > 0 ? editorTags : ['missing footnotes'],
         fidelity_notes: form.fidelity_notes || null,
         transcript_text: form.transcript_text || null,
         transcript_markdown: md,

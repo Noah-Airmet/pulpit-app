@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 One of the greatest evidences we have that our beloved prophet, President Thomas S. Monson, is the Lord's chosen servant is that he has learned to follow the Savior's example—serving individually, one by one. Those of us who have entered the waters of baptism have covenanted to do the same. We have covenanted to "always remember [the Savior] and keep his commandments," and He has said, "This is my commandment, That ye love one another, as I have loved you."

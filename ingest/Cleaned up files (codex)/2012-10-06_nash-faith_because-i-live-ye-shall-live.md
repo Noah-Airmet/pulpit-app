@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 While serving as young missionaries in Chile, my companion and I met a family of seven in the branch. The mother attended every week with her children. We assumed that they were longtime members of the Church. After several weeks we learned that they had not been baptized.

@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-23"
 needs_review: true                # set false once a second person has verified
 notes: "No notes."
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 The Restoration of the gospel of Jesus Christ began when God the Father and His Beloved Son appeared to the young Joseph Smith, answering his humble prayer. As part of the Restoration, Joseph Smith translated an ancient record by the gift and the power of God. This record contains "God's dealings with ancient inhabitants of the Americas and contains the fulness of the everlasting gospel."

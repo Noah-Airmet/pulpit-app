@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 When I was a small child, I remember coming into my mother's room and seeing her cry as she read a book. I had never seen her do this, and I asked what she was reading. She said it was a book about a man named Spencer W. Kimball, a prophet of God. She told me many wonderful things about what he had done with his life. From that moment on, I felt that a prophet was someone I could trust and love, especially if my mother felt that way. So when my Young Women leaders asked me to find a message in President Gordon B. Hinckley's talk, I knew there would be one for me.

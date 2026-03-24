@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-23"
 needs_review: true                # set false once a second person has verified
 notes: "No notes."
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 Have you ever noticed that our dear prophet, President Russell M. Nelson, continuously extends invitations to us? Not surprisingly, he has invited us to study and ponder the messages shared at the last two conferences. In April 2024, he said, "I hope you will repeatedly study the messages of this conference throughout the coming months." Then, in October 2024, he said: "I urge you to study [the speakers'] messages. Use them as a litmus test of what is true and what is not during the next six months."

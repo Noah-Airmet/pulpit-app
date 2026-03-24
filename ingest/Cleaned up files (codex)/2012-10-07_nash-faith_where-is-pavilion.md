@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 In the depths of his anguish in Liberty Jail, the Prophet Joseph Smith cried out: "O God, where art thou? And where is the pavilion that covereth thy hiding place?" Many of us, in moments of personal anguish, feel that God is far from us. The pavilion that seems to intercept divine aid does not cover God but occasionally covers us. God is never hidden, yet sometimes we are, covered by a pavilion of motivations that draw us away from God and make Him seem distant and inaccessible. Our own desires, rather than a feeling of "Thy will be done," create the feeling of a pavilion blocking God. God is not unable to see us or communicate with us, but we may be unwilling to listen or submit to His will and His time.

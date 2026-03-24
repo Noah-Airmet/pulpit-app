@@ -17,6 +17,8 @@ collected_by: "Samuel Baird"
 collected_date: "2026-03-24"
 needs_review: true                # set false once a second person has verified
 notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+calling: "none"
+editor_tags: ["missing footnotes"]
 ---
 
 My beloved sisters, you have been on my mind and in my heart for months as I have pondered this challenging responsibility. Though I don't feel equal to the responsibility placed upon me, I know that the call has come from the Lord through His chosen prophet, and for now, that is enough. The scriptures teach that "whether by [the Lord's] voice or by the voice of [His] servants, it is the same."
