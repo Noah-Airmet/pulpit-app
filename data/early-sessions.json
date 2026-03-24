@@ -1,0 +1,242 @@
+[
+  {
+    "id": "1830-06",
+    "label": "June 1830 General Conference",
+    "conference_date": "1830-06-09",
+    "era": "1830-1844",
+    "difficulty": "hard",
+    "notes": "First conference of the Church, held at Fayette, New York."
+  },
+  {
+    "id": "1830-09",
+    "label": "September 1830 General Conference",
+    "conference_date": "1830-09-26",
+    "era": "1830-1844",
+    "difficulty": "hard",
+    "notes": "Second conference, Fayette, New York."
+  },
+  {
+    "id": "1831-01",
+    "label": "January 1831 General Conference",
+    "conference_date": "1831-01-02",
+    "era": "1830-1844",
+    "difficulty": "hard",
+    "notes": "Third conference, Fayette, New York."
+  },
+  {
+    "id": "1831-06",
+    "label": "June 1831 General Conference",
+    "conference_date": "1831-06-03",
+    "era": "1830-1844",
+    "difficulty": "hard",
+    "notes": "Kirtland, Ohio. First conference on Ohio soil."
+  },
+  {
+    "id": "1831-10",
+    "label": "October 1831 General Conference",
+    "conference_date": "1831-10-25",
+    "era": "1830-1844",
+    "difficulty": "hard",
+    "notes": "Hiram Township, Portage County, Ohio."
+  },
+  {
+    "id": "1832-01",
+    "label": "January 1832 General Conference",
+    "conference_date": "1832-01-25",
+    "era": "1830-1844",
+    "difficulty": "hard",
+    "notes": "Amherst, Ohio."
+  },
+  {
+    "id": "1832-04",
+    "label": "April 1832 General Conference",
+    "conference_date": "1832-04-26",
+    "era": "1830-1844",
+    "difficulty": "hard",
+    "notes": "Jackson County, Missouri. Joseph Smith present."
+  },
+  {
+    "id": "1832-09",
+    "label": "September 1832 General Conference",
+    "conference_date": "1832-09-22",
+    "era": "1830-1844",
+    "difficulty": "hard",
+    "notes": "Kirtland, Ohio."
+  },
+  {
+    "id": "1833-04",
+    "label": "April 1833 General Conference",
+    "conference_date": "1833-04-06",
+    "era": "1830-1844",
+    "difficulty": "hard",
+    "notes": "Kirtland, Ohio."
+  },
+  {
+    "id": "1833-10",
+    "label": "October 1833 General Conference",
+    "conference_date": "1833-10-05",
+    "era": "1830-1844",
+    "difficulty": "hard",
+    "notes": "Kirtland, Ohio."
+  },
+  {
+    "id": "1834-05",
+    "label": "May 1834 General Conference",
+    "conference_date": "1834-05-03",
+    "era": "1830-1844",
+    "difficulty": "hard",
+    "notes": "Kirtland, Ohio."
+  },
+  {
+    "id": "1835-05",
+    "label": "May 1835 General Conference",
+    "conference_date": "1835-05-02",
+    "era": "1830-1844",
+    "difficulty": "hard",
+    "notes": "Kirtland, Ohio. Twelve Apostles called and organized."
+  },
+  {
+    "id": "1836-09",
+    "label": "September 1836 General Conference",
+    "conference_date": "1836-09-03",
+    "era": "1830-1844",
+    "difficulty": "hard",
+    "notes": "Kirtland, Ohio."
+  },
+  {
+    "id": "1837-09",
+    "label": "September 1837 General Conference",
+    "conference_date": "1837-09-03",
+    "era": "1830-1844",
+    "difficulty": "hard",
+    "notes": "Kirtland, Ohio."
+  },
+  {
+    "id": "1838-04",
+    "label": "April 1838 General Conference",
+    "conference_date": "1838-04-06",
+    "era": "1830-1844",
+    "difficulty": "hard",
+    "notes": "Far West, Missouri."
+  },
+  {
+    "id": "1839-05",
+    "label": "May 1839 General Conference",
+    "conference_date": "1839-05-04",
+    "era": "1830-1844",
+    "difficulty": "hard",
+    "notes": "Quincy area, Illinois. Church in exile from Missouri."
+  },
+  {
+    "id": "1840-04",
+    "label": "April 1840 General Conference",
+    "conference_date": "1840-04-06",
+    "era": "1830-1844",
+    "difficulty": "hard",
+    "notes": "Nauvoo, Illinois (Commerce). Semi-annual pattern beginning."
+  },
+  {
+    "id": "1840-10",
+    "label": "October 1840 General Conference",
+    "conference_date": "1840-10-03",
+    "era": "1830-1844",
+    "difficulty": "hard",
+    "notes": "Nauvoo, Illinois."
+  },
+  {
+    "id": "1841-04",
+    "label": "April 1841 General Conference",
+    "conference_date": "1841-04-06",
+    "era": "1830-1844",
+    "difficulty": "hard",
+    "notes": "Nauvoo, Illinois."
+  },
+  {
+    "id": "1841-10",
+    "label": "October 1841 General Conference",
+    "conference_date": "1841-10-02",
+    "era": "1830-1844",
+    "difficulty": "hard",
+    "notes": "Nauvoo, Illinois."
+  },
+  {
+    "id": "1842-04",
+    "label": "April 1842 General Conference",
+    "conference_date": "1842-04-06",
+    "era": "1830-1844",
+    "difficulty": "hard",
+    "notes": "Nauvoo, Illinois."
+  },
+  {
+    "id": "1842-10",
+    "label": "October 1842 General Conference",
+    "conference_date": "1842-10-01",
+    "era": "1830-1844",
+    "difficulty": "hard",
+    "notes": "Nauvoo, Illinois."
+  },
+  {
+    "id": "1843-04",
+    "label": "April 1843 General Conference",
+    "conference_date": "1843-04-06",
+    "era": "1830-1844",
+    "difficulty": "hard",
+    "notes": "Nauvoo, Illinois."
+  },
+  {
+    "id": "1843-10",
+    "label": "October 1843 General Conference",
+    "conference_date": "1843-10-07",
+    "era": "1830-1844",
+    "difficulty": "hard",
+    "notes": "Nauvoo, Illinois."
+  },
+  {
+    "id": "1844-04",
+    "label": "April 1844 General Conference",
+    "conference_date": "1844-04-06",
+    "era": "1830-1844",
+    "difficulty": "hard",
+    "notes": "Nauvoo, Illinois. Last conference during Joseph Smith's lifetime; he was martyred June 27, 1844."
+  },
+  {
+    "id": "1844-10",
+    "label": "October 1844 General Conference",
+    "conference_date": "1844-10-05",
+    "era": "1830-1844",
+    "difficulty": "hard",
+    "notes": "Nauvoo, Illinois. First conference after Joseph Smith's martyrdom."
+  },
+  {
+    "id": "1845-04",
+    "label": "April 1845 General Conference",
+    "conference_date": "1845-04-06",
+    "era": "1845-1850",
+    "difficulty": "detective-work",
+    "notes": "Nauvoo, Illinois."
+  },
+  {
+    "id": "1845-10",
+    "label": "October 1845 General Conference",
+    "conference_date": "1845-10-06",
+    "era": "1845-1850",
+    "difficulty": "detective-work",
+    "notes": "Nauvoo, Illinois. Announcement of the exodus west."
+  },
+  {
+    "id": "1847-04",
+    "label": "April 1847 General Conference",
+    "conference_date": "1847-04-06",
+    "era": "1845-1850",
+    "difficulty": "detective-work",
+    "notes": "Winter Quarters, Nebraska. Church in transit westward. No conference was held in 1846."
+  },
+  {
+    "id": "1847-12",
+    "label": "December 1847 General Conference",
+    "conference_date": "1847-12-05",
+    "era": "1845-1850",
+    "difficulty": "detective-work",
+    "notes": "Kanesville (Council Bluffs), Iowa. Brigham Young sustained as second President of the Church."
+  }
+]
