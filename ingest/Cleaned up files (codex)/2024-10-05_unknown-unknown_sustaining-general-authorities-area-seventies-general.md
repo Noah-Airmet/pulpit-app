@@ -1,22 +1,20 @@
 ---
-# === IDENTIFICATION ===
-speaker: "Eyring"
-date: "2024-10-05"
-conference: "October 2024 General Conference"
-session: "Saturday Morning Session"                     # e.g., "Saturday Morning", "Priesthood", "Sunday Afternoon"
-
-# === SOURCE & PROVENANCE ===
-source_title: "Sustaining of General Authorities, Area Seventies, and General Officers"
-source_url: "https://www.churchofjesuschrist.org/study/general-conference/2024/10/11eyring?lang=eng"
-source_type: "church_website"
-fidelity: "verbatim"
-fidelity_notes: "Copied from the official Church website."
-
-# === COLLECTION METADATA ===
-collected_by: "Samuel Baird"
-collected_date: "2026-03-24"
-needs_review: true                # set false once a second person has verified
-notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+speaker: Henry B. Eyring
+date: '2024-10-05'
+conference: October 2024 General Conference
+session: Saturday Morning Session
+source_title: 'Sustaining of General Authorities, Area Seventies, and General Officers'
+source_url: >-
+  https://www.churchofjesuschrist.org/study/general-conference/2024/10/11eyring?lang=eng
+source_type: church_website
+fidelity: verbatim
+fidelity_notes: Copied from the official Church website.
+collected_by: Samuel Baird
+collected_date: '2026-03-24'
+needs_review: true
+notes: >-
+  This website was scraped by Samuel Baird. Script:
+  https://github.com/Samuel-Baird/pulpit
 ---
 
 Brothers and sisters, it will now be my privilege to present the General Authorities, Area Seventies, and General Officers of the Church for your sustaining vote.

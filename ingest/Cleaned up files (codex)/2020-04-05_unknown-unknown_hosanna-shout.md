@@ -1,22 +1,20 @@
 ---
-# === IDENTIFICATION ===
-speaker: "Nelson"
-date: "2020-04-05"
-conference: "April 2020 General Conference"
-session: "Sunday Morning Session"                     # e.g., "Saturday Morning", "Priesthood", "Sunday Afternoon"
-
-# === SOURCE & PROVENANCE ===
-source_title: "Hosanna Shout"
-source_url: "https://www.churchofjesuschrist.org/study/general-conference/2020/04/46nelson?lang=eng"
-source_type: "church_website"
-fidelity: "verbatim"
-fidelity_notes: "Copied from the official Church website."
-
-# === COLLECTION METADATA ===
-collected_by: "Samuel Baird"
-collected_date: "2026-03-24"
-needs_review: true                # set false once a second person has verified
-notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+speaker: Russell M. Nelson
+date: '2020-04-05'
+conference: April 2020 General Conference
+session: Sunday Morning Session
+source_title: Hosanna Shout
+source_url: >-
+  https://www.churchofjesuschrist.org/study/general-conference/2020/04/46nelson?lang=eng
+source_type: church_website
+fidelity: verbatim
+fidelity_notes: Copied from the official Church website.
+collected_by: Samuel Baird
+collected_date: '2026-03-24'
+needs_review: true
+notes: >-
+  This website was scraped by Samuel Baird. Script:
+  https://github.com/Samuel-Baird/pulpit
 ---
 
 Now, my dear brothers and sisters, as we commemorate Joseph Smith's First Vision of the Father and the Son, we felt that it would be appropriate to rejoice together by participating in the Hosanna Shout.

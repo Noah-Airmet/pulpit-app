@@ -1,22 +1,20 @@
 ---
-# === IDENTIFICATION ===
-speaker: "charge from the First Presidency, the Church Auditing Department has authority to audit all Church departments and operations worldwide. The Church Auditing Department has access to all systems, records, personnel, and properties necessary to audit contributions, expenditures, and Church resources. Professional financial and operational auditing standards govern the performance of audit work. Risk is the primary factor guiding the selection of audits."
-date: "2004-04-03"
-conference: "April 2004 General Conference"
-session: "Saturday Afternoon Session"                     # e.g., "Saturday Morning", "Priesthood", "Sunday Afternoon"
-
-# === SOURCE & PROVENANCE ===
-source_title: "Church Auditing Department Report for 2003"
-source_url: "https://www.churchofjesuschrist.org/study/general-conference/2004/04/church-auditing-department-report-2003?lang=eng"
-source_type: "church_website"
-fidelity: "verbatim"
-fidelity_notes: "Copied from the official Church website."
-
-# === COLLECTION METADATA ===
-collected_by: "Samuel Baird"
-collected_date: "2026-03-24"
-needs_review: true                # set false once a second person has verified
-notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+speaker: Wesley L. Jones
+date: '2004-04-03'
+conference: April 2004 General Conference
+session: Saturday Afternoon Session
+source_title: Church Auditing Department Report for 2003
+source_url: >-
+  https://www.churchofjesuschrist.org/study/general-conference/2004/04/church-auditing-department-report-2003?lang=eng
+source_type: church_website
+fidelity: verbatim
+fidelity_notes: Copied from the official Church website.
+collected_by: Samuel Baird
+collected_date: '2026-03-24'
+needs_review: true
+notes: >-
+  This website was scraped by Samuel Baird. Script:
+  https://github.com/Samuel-Baird/pulpit
 ---
 
 To the First Presidency of The Church of Jesus Christ of Latter-day Saints

@@ -1,22 +1,20 @@
 ---
-# === IDENTIFICATION ===
-speaker: "Jergensen"
-date: "2020-04-04"
-conference: "April 2020 General Conference"
-session: "Saturday Afternoon Session"                     # e.g., "Saturday Morning", "Priesthood", "Sunday Afternoon"
-
-# === SOURCE & PROVENANCE ===
-source_title: "Church Auditing Department Report, 2019"
-source_url: "https://www.churchofjesuschrist.org/study/general-conference/2020/04/22jergensen?lang=eng"
-source_type: "church_website"
-fidelity: "verbatim"
-fidelity_notes: "Copied from the official Church website."
-
-# === COLLECTION METADATA ===
-collected_by: "Samuel Baird"
-collected_date: "2026-03-24"
-needs_review: true                # set false once a second person has verified
-notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+speaker: Kevin R. Jergensen
+date: '2020-04-04'
+conference: April 2020 General Conference
+session: Saturday Afternoon Session
+source_title: 'Church Auditing Department Report, 2019'
+source_url: >-
+  https://www.churchofjesuschrist.org/study/general-conference/2020/04/22jergensen?lang=eng
+source_type: church_website
+fidelity: verbatim
+fidelity_notes: Copied from the official Church website.
+collected_by: Samuel Baird
+collected_date: '2026-03-24'
+needs_review: true
+notes: >-
+  This website was scraped by Samuel Baird. Script:
+  https://github.com/Samuel-Baird/pulpit
 ---
 
 Dear Brethren: Directed by revelation, as recorded in section 120 of the Doctrine and Covenants, the Council on the Disposition of the Tithes—composed of the First Presidency, the Quorum of the Twelve Apostles, and the Presiding Bishopric—authorizes the expenditure of Church funds. Church entities disburse funds in accordance with approved budgets, policies, and procedures.

@@ -8,7 +8,7 @@ import { FidelityBadge } from '../components/archive/FidelityBadge'
 import { ProvenanceSidebar } from '../components/archive/ProvenanceSidebar'
 
 function stripFrontmatter(markdown: string): string {
-  return markdown.replace(/^---\r?\n[\s\S]*?\r?\n---\r?\n*/, '')
+  return markdown.replace(/^\uFEFF?---\r?\n[\s\S]*?\r?\n---\r?\n*/, '')
 }
 
 export function TalkViewer() {

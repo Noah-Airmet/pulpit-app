@@ -1,3 +1,5 @@
+import { DropdownFilter } from '../ui/DropdownFilter'
+
 const ERAS = ['1830-1844', '1845-1850', '1850-1879', '1881-1896', '1897-present']
 
 const FIDELITY_OPTIONS = [
@@ -26,20 +28,20 @@ interface Props {
 const sectionLabel: React.CSSProperties = {
   fontFamily: 'var(--font-ui)',
   fontSize: '0.6875rem',
-  fontWeight: 500,
+  fontWeight: 600,
   textTransform: 'uppercase',
   letterSpacing: '0.06em',
   color: 'var(--color-ink-tertiary)',
-  marginBottom: '0.5rem',
+  marginBottom: '0.75rem',
   display: 'block',
 }
 
 const inputStyle: React.CSSProperties = {
   fontFamily: 'var(--font-ui)',
   fontSize: '0.8125rem',
-  padding: '0.375rem 0.625rem',
+  padding: '0.5rem 0.75rem',
   border: '1px solid var(--color-border)',
-  borderRadius: 4,
+  borderRadius: 6,
   background: 'white',
   color: 'var(--color-ink)',
   width: '100%',
@@ -73,36 +75,11 @@ export function ArchiveFilters({
   }
 
   return (
-    <div>
-      {/* Header */}
-      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1.5rem' }}>
-        <span style={sectionLabel}>
-          Filters{activeCount > 0 ? ` (${activeCount})` : ''}
-        </span>
-        {activeCount > 0 && (
-          <button
-            onClick={onReset}
-            style={{
-              fontFamily: 'var(--font-ui)',
-              fontSize: '0.75rem',
-              color: 'var(--color-ink-tertiary)',
-              background: 'none',
-              border: 'none',
-              cursor: 'pointer',
-              textDecoration: 'underline',
-              textUnderlineOffset: '2px',
-              padding: 0,
-            }}
-          >
-            Reset
-          </button>
-        )}
-      </div>
-
-      {/* Era pills */}
-      <div style={{ marginBottom: '1.5rem' }}>
-        <span style={sectionLabel}>Era</span>
-        <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.375rem' }}>
+    <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', flexWrap: 'wrap' }}>
+      {/* Era Filter */}
+      <DropdownFilter label="Era" activeCount={era ? 1 : 0}>
+        <span style={sectionLabel}>Select Historical Era</span>
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '0.25rem' }}>
           {ERAS.map(e => {
             const active = era === e
             return (
@@ -110,16 +87,17 @@ export function ArchiveFilters({
                 key={e}
                 onClick={() => handleEraClick(e)}
                 style={{
-                  fontFamily: 'var(--font-mono)',
-                  fontSize: '0.6875rem',
-                  padding: '0.25rem 0.625rem',
-                  borderRadius: 9999,
-                  border: `1px solid ${active ? 'var(--color-accent)' : 'var(--color-border)'}`,
-                  background: active ? 'var(--color-accent)' : 'transparent',
-                  color: active ? 'white' : 'var(--color-ink-secondary)',
+                  textAlign: 'left',
+                  padding: '0.5rem 0.75rem',
+                  borderRadius: '6px',
+                  background: active ? 'var(--color-ink-faint)' : 'transparent',
+                  color: active ? 'var(--color-accent)' : 'var(--color-ink-secondary)',
+                  border: 'none',
                   cursor: 'pointer',
-                  transition: 'all 0.15s ease',
-                  letterSpacing: '0.02em',
+                  fontFamily: 'var(--font-ui)',
+                  fontSize: '0.8125rem',
+                  fontWeight: active ? 600 : 400,
+                  transition: 'background 0.1s',
                 }}
               >
                 {e}
@@ -127,52 +105,62 @@ export function ArchiveFilters({
             )
           })}
         </div>
-      </div>
+      </DropdownFilter>
 
-      {/* Speaker */}
-      <div style={{ marginBottom: '1.5rem' }}>
-        <span style={sectionLabel}>Speaker</span>
-        <input
-          type="text"
-          value={speaker}
-          onChange={e => onSpeakerChange(e.target.value)}
-          placeholder="Search speakers..."
-          style={inputStyle}
-        />
-      </div>
+      {/* Speaker Filter */}
+      <DropdownFilter label="Speaker" activeCount={speaker ? 1 : 0}>
+        <span style={sectionLabel}>Filter by Speaker</span>
+        <div style={{ minWidth: '220px' }}>
+          <input
+            type="text"
+            value={speaker}
+            onChange={e => onSpeakerChange(e.target.value)}
+            placeholder="E.g. Russell M. Nelson"
+            autoFocus
+            style={inputStyle}
+          />
+        </div>
+      </DropdownFilter>
 
-      {/* Fidelity checkboxes */}
-      <div style={{ marginBottom: '1.5rem' }}>
-        <span style={sectionLabel}>Fidelity</span>
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '0.375rem' }}>
+      {/* Fidelity Filter */}
+      <DropdownFilter label="Fidelity" activeCount={fidelities.length}>
+        <span style={sectionLabel}>Transcript Fidelity</span>
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
           {FIDELITY_OPTIONS.map(opt => (
             <label
               key={opt.value}
               style={{
                 display: 'flex',
                 alignItems: 'center',
-                gap: '0.5rem',
+                gap: '0.625rem',
                 fontFamily: 'var(--font-ui)',
                 fontSize: '0.8125rem',
                 color: 'var(--color-ink-secondary)',
                 cursor: 'pointer',
+                padding: '0.25rem 0.5rem',
+                borderRadius: '4px',
               }}
             >
               <input
                 type="checkbox"
                 checked={fidelities.includes(opt.value)}
                 onChange={() => handleFidelityToggle(opt.value)}
-                style={{ accentColor: 'var(--color-accent)' }}
+                style={{
+                  width: '16px',
+                  height: '16px',
+                  accentColor: 'var(--color-accent)',
+                  cursor: 'pointer'
+                }}
               />
               {opt.label}
             </label>
           ))}
         </div>
-      </div>
+      </DropdownFilter>
 
-      {/* Date range */}
-      <div style={{ marginBottom: '1.5rem' }}>
-        <span style={sectionLabel}>Date range</span>
+      {/* Date Range Filter */}
+      <DropdownFilter label="Date Range" activeCount={yearFrom || yearTo ? 1 : 0}>
+        <span style={sectionLabel}>Custom Date Range</span>
         <div style={{ display: 'flex', gap: '0.5rem', alignItems: 'center' }}>
           <input
             type="number"
@@ -184,7 +172,7 @@ export function ArchiveFilters({
             placeholder="From"
             min={1830}
             max={2026}
-            style={{ ...inputStyle, width: '50%' }}
+            style={{ ...inputStyle, width: '80px' }}
           />
           <span style={{ color: 'var(--color-ink-tertiary)', fontSize: '0.75rem' }}>–</span>
           <input
@@ -197,10 +185,34 @@ export function ArchiveFilters({
             placeholder="To"
             min={1830}
             max={2026}
-            style={{ ...inputStyle, width: '50%' }}
+            style={{ ...inputStyle, width: '80px' }}
           />
         </div>
-      </div>
+      </DropdownFilter>
+
+      {/* Reset Button */}
+      {activeCount > 0 && (
+        <button
+          onClick={onReset}
+          style={{
+            fontFamily: 'var(--font-ui)',
+            fontSize: '0.75rem',
+            fontWeight: 500,
+            color: 'var(--color-ink-tertiary)',
+            background: 'none',
+            border: 'none',
+            cursor: 'pointer',
+            padding: '0.5rem 0.75rem',
+            marginLeft: '0.5rem',
+            borderRadius: '6px',
+            transition: 'color 0.1s',
+          }}
+          onMouseEnter={e => e.currentTarget.style.color = 'var(--color-ink)'}
+          onMouseLeave={e => e.currentTarget.style.color = 'var(--color-ink-tertiary)'}
+        >
+          Reset all
+        </button>
+      )}
     </div>
   )
 }
