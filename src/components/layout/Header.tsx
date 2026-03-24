@@ -129,7 +129,7 @@ export function Header() {
               }}
             >
               Contribute
-              <span style={{ fontSize: '0.625rem', marginTop: 1 }}>▾</span>
+              <span style={{ fontSize: '0.75rem', lineHeight: 1 }}>▾</span>
             </button>
             {dropdownOpen && (
               <div
