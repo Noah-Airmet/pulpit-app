@@ -8,7 +8,7 @@
 
 @theme {
   /* Fonts */
-  --font-display: "Newsreader", "Georgia", "Times New Roman", serif;
+  --font-display: "Instrument Serif", "Georgia", "Times New Roman", serif;
   --font-body: "Source Serif 4", "Georgia", serif;
   --font-mono: "IBM Plex Mono", "Menlo", "Consolas", monospace;
   --font-ui: "Inter", system-ui, sans-serif;
