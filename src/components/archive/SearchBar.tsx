@@ -8,7 +8,7 @@ interface Props {
 
 export function SearchBar({ value, onChange, debounceMs = 300 }: Props) {
   const [localValue, setLocalValue] = useState(value)
-  const timeoutRef = useRef<ReturnType<typeof setTimeout>>()
+  const timeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null)
 
   useEffect(() => {
     setLocalValue(value)
