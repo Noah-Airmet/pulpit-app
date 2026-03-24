@@ -12,6 +12,17 @@ interface ColumnProps {
 }
 
 function Column({ items, selectedId, onSelect, loading, title, isActive }: ColumnProps) {
+  const scrollRef = useRef<HTMLDivElement>(null)
+
+  useEffect(() => {
+    if (selectedId && scrollRef.current) {
+      const selectedEl = scrollRef.current.querySelector(`[data-id="${selectedId}"]`) as HTMLElement
+      if (selectedEl) {
+        selectedEl.scrollIntoView({ block: 'nearest', behavior: 'smooth' })
+      }
+    }
+  }, [selectedId])
+
   return (
     <div
       style={{
@@ -42,7 +53,7 @@ function Column({ items, selectedId, onSelect, loading, title, isActive }: Colum
       >
         {title}
       </div>
-      <div style={{ flex: 1, overflowY: 'auto', padding: '0.25rem' }}>
+      <div ref={scrollRef} style={{ flex: 1, overflowY: 'auto', padding: '0.25rem' }}>
         {loading ? (
           <div style={{ padding: '2rem', textAlign: 'center', color: 'var(--color-ink-tertiary)', fontSize: '0.8125rem' }}>
             Loading...
@@ -51,6 +62,7 @@ function Column({ items, selectedId, onSelect, loading, title, isActive }: Colum
           items.map(item => (
             <button
               key={item.id}
+              data-id={item.id}
               onClick={() => onSelect(item.id)}
               style={{
                 width: '100%',
@@ -302,12 +314,23 @@ export function ColumnsView() {
                       color: 'inherit',
                       background: 'white',
                       transition: 'all 0.1s ease',
+                      outline: 'none',
                     }}
                     onMouseEnter={e => {
                       e.currentTarget.style.borderColor = 'var(--color-accent)'
                       e.currentTarget.style.boxShadow = '0 2px 8px rgba(0,0,0,0.05)'
                     }}
                     onMouseLeave={e => {
+                      if (document.activeElement !== e.currentTarget) {
+                        e.currentTarget.style.borderColor = 'var(--color-border-light)'
+                        e.currentTarget.style.boxShadow = 'none'
+                      }
+                    }}
+                    onFocus={e => {
+                      e.currentTarget.style.borderColor = 'var(--color-accent)'
+                      e.currentTarget.style.boxShadow = '0 2px 8px rgba(0,0,0,0.05)'
+                    }}
+                    onBlur={e => {
                       e.currentTarget.style.borderColor = 'var(--color-border-light)'
                       e.currentTarget.style.boxShadow = 'none'
                     }}
