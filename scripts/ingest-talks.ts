@@ -62,6 +62,16 @@ function sessionIdFromDate(date: string): string {
   return `${year}-${month}`
 }
 
+// Derive session_id from conference name (e.g. "April 1972 General Conference" → "1972-04")
+// Preferred over date-based derivation since conferences starting on a Thursday
+// can fall in the prior month (e.g. March 30 for April 1972).
+function sessionIdFromConference(conference: string): string | null {
+  const match = conference.match(/(April|October)\s+(\d{4})/)
+  if (!match) return null
+  const month = match[1] === 'April' ? '04' : '10'
+  return `${match[2]}-${month}`
+}
+
 // ── Parse one file ─────────────────────────────────────────────────────────────
 
 interface TalkRow {
@@ -113,7 +123,7 @@ function parseFile(filePath: string): TalkRow | null {
     talk_date: talkDate,
     conference,
     session_label: fm.session?.toString().trim() || null,
-    session_id: sessionIdFromDate(talkDate),
+    session_id: sessionIdFromConference(conference) ?? sessionIdFromDate(talkDate),
     source_title: sourceTitle,
     source_url: fm.source_url?.toString().trim() || null,
     source_type: sourceType,
@@ -163,7 +173,7 @@ async function ingest() {
     const batch = rows.slice(i, i + BATCH)
     const { error } = await supabase
       .from('talks')
-      .upsert(batch, { onConflict: 'speaker,talk_date,conference' })
+      .upsert(batch, { onConflict: 'speaker,talk_date,conference,source_title' })
 
     if (error) {
       console.error(`  ❌ Batch ${Math.floor(i / BATCH) + 1} error:`, error.message)

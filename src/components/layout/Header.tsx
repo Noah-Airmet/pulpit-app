@@ -86,7 +86,7 @@ export function Header() {
             flexShrink: 0,
           }}
         >
-          GC Archive
+          Pulpit
         </Link>
 
         {/* Nav — always right-aligned */}

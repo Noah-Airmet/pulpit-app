@@ -1,0 +1,27 @@
+﻿---
+# === IDENTIFICATION ===
+speaker: "William R. Walker"
+date: "2002-04-07"
+conference: "April 2002 General Conference"
+session: "Sunday Afternoon Session"                     # e.g., "Saturday Morning", "Priesthood", "Sunday Afternoon"
+
+# === SOURCE & PROVENANCE ===
+source_title: "I'll Go Where You Want Me to Go"
+source_url: "https://www.churchofjesuschrist.org/study/general-conference/2002/04/i-ll-go-where-you-want-me-to-go?lang=eng"
+source_type: "church_website"
+fidelity: "verbatim"
+fidelity_notes: "Copied from the official Church website."
+
+# === COLLECTION METADATA ===
+collected_by: "Samuel Baird"
+collected_date: "2026-03-24"
+needs_review: true                # set false once a second person has verified
+notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+---
+
+My beloved brothers and sisters, it is with deep humility and great appreciation that I stand in this holy place. As a little boy growing up in Raymond, Alberta, Canada, I loved it every time we sang, "I'll go where you want me to go, dear Lord" (Hymns, no. 270). Those words, each time we sang them in a sacrament meeting or Sunday School, burned commitment into my heart and soul, that I always wanted to go where the Lord wanted me to go, to say what He wanted me to say—"I'll be what you want me to be," dear Lord. That commitment seems appropriate to restate today.
+
+I'm grateful for the sustaining vote of yesterday, and with you I sustain President Gordon B. Hinckley and his counselors, President Monson and President Faust, and President Packer and all of the Twelve as prophets, seers, and revelators. I bear witness that indeed they are prophets, seers, and revelators.
+
+I love the Lord. I love this Church. I love the wonderful, faithful Saints throughout the world who do all that they can to honor their commitments and to live their religion. I bear witness that God lives and that Jesus Christ, His Son, is our Savior and our Redeemer. I love Him. I want to do all that I can to serve as He would have me serve, and I say these words and bear my witness to the truthfulness of these things in the name of Jesus Christ, amen.
+

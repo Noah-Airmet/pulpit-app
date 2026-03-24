@@ -1,0 +1,29 @@
+﻿---
+# === IDENTIFICATION ===
+speaker: "Waldo P. Call"
+date: "1985-04-07"
+conference: "April 1985 General Conference"
+session: "Sunday Afternoon Session"                     # e.g., "Saturday Morning", "Priesthood", "Sunday Afternoon"
+
+# === SOURCE & PROVENANCE ===
+source_title: "This Is the Work of the Lord"
+source_url: "https://www.churchofjesuschrist.org/study/general-conference/1985/04/this-is-the-work-of-the-lord?lang=eng"
+source_type: "church_website"
+fidelity: "verbatim"
+fidelity_notes: "Copied from the official Church website."
+
+# === COLLECTION METADATA ===
+collected_by: "Samuel Baird"
+collected_date: "2026-03-24"
+needs_review: true                # set false once a second person has verified
+notes: "This website was scraped by Samuel Baird. Script: https://github.com/Samuel-Baird/pulpit"
+---
+
+My dear brothers and sisters, this is, as our missionaries would say, an awesome situation. At this time, I want to thank my parents for the good example they set for me. There was one time in my life—and my mother, who I imagine might be listening, doesn't know this—when the love I knew she had for me saved me. I knelt down one night to pray, as she had taught me. I was about to throw away everything that I had. As I started praying, I started thinking of her and of the love that she had for me. As I cried and prayed—and it took most of the night—I was so grateful that I knew that she loved me.
+
+I am grateful for my wife. Throughout the many years we have been together, I have known that she has loved me. It is because of this love I have felt for my family, and they have felt for me, that I am here today.
+
+I am grateful for President Kimball. I was watching some young people sitting in front of me as we were singing "We Thank Thee, O God, for a Prophet" (Hymns, no. 196), and I imagine they would have liked to have come up and sat beside President Kimball where I sat just now.
+
+I know that this is the work of the Lord. I know that he lives. I know this. I know that these men, the First Presidency and the Quorum of the Twelve, are prophets and Apostles, seers and revelators, and if we will follow them, we will have eternal life. I say this in the name of Jesus Christ, amen.
+
