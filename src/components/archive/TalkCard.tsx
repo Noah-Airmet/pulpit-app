@@ -22,46 +22,32 @@ export function TalkCard({ id, speaker, talk_date, conference, session_label, so
       style={{ textDecoration: 'none', color: 'inherit', display: 'block' }}
     >
       <div
-        style={{
-          display: 'flex',
-          alignItems: 'flex-start',
-          gap: '1rem',
-          padding: '0.875rem 1rem',
-          borderBottom: '1px solid var(--color-border-light)',
-          transition: 'background 0.15s ease',
-        }}
-        onMouseEnter={e => { e.currentTarget.style.background = 'var(--color-accent-subtle)' }}
-        onMouseLeave={e => { e.currentTarget.style.background = '' }}
+        className="flex flex-col sm:flex-row sm:items-start gap-2 sm:gap-4 p-4 border-b border-border-light transition-colors duration-150 hover:bg-accent-subtle"
       >
-        {/* Date */}
-        <div style={{ minWidth: 80, flexShrink: 0, paddingTop: 2 }}>
-          <span
-            style={{
-              fontFamily: 'var(--font-mono)',
-              fontSize: '0.8125rem',
-              color: 'var(--color-ink-tertiary)',
-              letterSpacing: '0.02em',
-            }}
-          >
+        {/* Date and Fidelity - Mobile top row */}
+        <div className="flex justify-between items-center sm:hidden w-full mb-1">
+          <span className="font-mono text-[0.8125rem] text-ink-tertiary tracking-wide">
+            {displayDate}
+          </span>
+          <FidelityBadge fidelity={fidelity} />
+        </div>
+
+        {/* Date - Desktop */}
+        <div className="hidden sm:block min-w-[80px] shrink-0 pt-[2px]">
+          <span className="font-mono text-[0.8125rem] text-ink-tertiary tracking-wide">
             {displayDate}
           </span>
         </div>
 
         {/* Speaker */}
-        <div style={{ minWidth: 160, flexShrink: 0 }}>
-          <span
-            style={{
-              fontFamily: 'var(--font-display)',
-              fontSize: '0.9375rem',
-              color: 'var(--color-ink)',
-            }}
-          >
+        <div className="sm:min-w-[160px] shrink-0">
+          <span className="font-display text-[0.9375rem] text-ink">
             {speaker}
           </span>
         </div>
 
         {/* Title + session + snippet */}
-        <div style={{ flex: 1, minWidth: 0 }}>
+        <div className="flex-1 min-w-0 w-full mt-1 sm:mt-0">
           <div
             style={{
               fontFamily: 'var(--font-body)',
@@ -102,8 +88,8 @@ export function TalkCard({ id, speaker, talk_date, conference, session_label, so
           )}
         </div>
 
-        {/* Fidelity badge */}
-        <div style={{ flexShrink: 0, paddingTop: 2 }}>
+        {/* Fidelity badge - Desktop */}
+        <div className="hidden sm:block shrink-0 pt-[2px]">
           <FidelityBadge fidelity={fidelity} />
         </div>
       </div>

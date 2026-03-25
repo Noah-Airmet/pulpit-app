@@ -49,32 +49,10 @@ export function Header() {
 
   return (
     <header
-      style={{
-        position: 'fixed',
-        top: '1rem',
-        left: '50%',
-        transform: 'translateX(-50%)',
-        width: 'calc(100% - 2rem)',
-        maxWidth: 'var(--width-page)',
-        zIndex: 100,
-        background: 'rgba(250, 248, 245, 0.45)',
-        backdropFilter: 'blur(12px)',
-        WebkitBackdropFilter: 'blur(12px)',
-        border: '1px solid var(--color-border)',
-        borderRadius: '9999px',
-        boxShadow: 'var(--shadow-md)',
-      }}
+      className="fixed top-0 sm:top-4 left-0 sm:left-1/2 sm:-translate-x-1/2 w-full sm:w-[calc(100%-2rem)] max-w-[var(--width-page)] z-[100] bg-[rgba(250,248,245,0.85)] sm:bg-[rgba(250,248,245,0.45)] backdrop-blur-xl border-b sm:border border-border shadow-sm sm:shadow-md transition-all sm:rounded-full pt-[env(safe-area-inset-top)]"
     >
       <div
-        style={{
-          maxWidth: 'var(--width-page)',
-          margin: '0 auto',
-          padding: '0 1.5rem',
-          height: 56,
-          display: 'flex',
-          alignItems: 'center',
-          gap: '1.5rem',
-        }}
+        className="max-w-[var(--width-page)] mx-auto px-4 sm:px-6 min-h-[3.5rem] flex items-center justify-between sm:justify-start gap-4 sm:gap-6"
       >
         {/* Logo */}
         <Link
@@ -93,8 +71,8 @@ export function Header() {
           Pulpit
         </Link>
 
-        {/* Nav — always right-aligned */}
-        <nav style={{ marginLeft: 'auto', display: 'flex', alignItems: 'center', gap: '0.25rem' }}>
+        {/* Nav — always right-aligned, let it scroll horizontally on small screens */}
+        <nav className="flex items-center gap-2 sm:gap-2 flex-nowrap shrink-0 ml-auto">
           <Link
             to="/archive"
             style={navLinkStyle(archiveActive)}
@@ -179,7 +157,7 @@ export function Header() {
 
         {/* User area */}
         {user && (
-          <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', flexShrink: 0 }}>
+          <div className="flex items-center gap-3 shrink-0">
             {profile?.avatar_url && (
               <img
                 src={profile.avatar_url}
@@ -188,27 +166,13 @@ export function Header() {
               />
             )}
             <span
-              style={{
-                fontFamily: 'var(--font-ui)',
-                fontSize: '0.8125rem',
-                color: 'var(--color-ink-secondary)',
-              }}
+              className="hidden sm:inline-block font-ui text-[0.8125rem] text-ink-secondary"
             >
               {profile?.display_name ?? user.email}
             </span>
             <button
               onClick={signOut}
-              style={{
-                fontFamily: 'var(--font-ui)',
-                fontSize: '0.8125rem',
-                color: 'var(--color-ink-tertiary)',
-                background: 'none',
-                border: 'none',
-                cursor: 'pointer',
-                padding: '0.25rem 0',
-                textDecoration: 'underline',
-                textUnderlineOffset: '2px',
-              }}
+              className="font-ui text-[0.8125rem] text-ink-tertiary bg-transparent border-none cursor-pointer py-1 underline underline-offset-2 hover:text-ink"
             >
               Sign out
             </button>

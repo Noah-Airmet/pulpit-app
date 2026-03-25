@@ -36,7 +36,7 @@ export function Archive() {
   return (
     <div style={{ maxWidth: 'var(--width-page)', margin: '0 auto', padding: '2.5rem 1.5rem 4rem' }}>
       {/* Header */}
-      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '2rem', flexWrap: 'wrap', gap: '1rem' }}>
+      <div className="flex flex-col sm:flex-row justify-between items-start mb-8 gap-4 sm:gap-0">
         <div>
           <h1
             style={{
@@ -84,6 +84,7 @@ export function Archive() {
             e.currentTarget.style.background = 'transparent'
             e.currentTarget.style.color = 'var(--color-accent)'
           }}
+          className="self-start sm:self-center"
         >
           Search the archive
         </Link>
@@ -105,16 +106,7 @@ export function Archive() {
 
       <div style={{ minWidth: 0 }}>
         {/* Controls bar */}
-        <div
-          style={{
-            display: 'flex',
-            justifyContent: 'space-between',
-            alignItems: 'center',
-            marginBottom: '1rem',
-            flexWrap: 'wrap',
-            gap: '0.75rem',
-          }}
-        >
+        <div className="flex flex-col sm:flex-row sm:justify-between items-start sm:items-center mb-4 gap-3 sm:gap-0">
           <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
             <div
               style={{

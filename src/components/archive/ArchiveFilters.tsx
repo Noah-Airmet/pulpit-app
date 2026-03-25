@@ -64,7 +64,7 @@ export function ArchiveFilters({
   }
 
   return (
-    <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', flexWrap: 'wrap' }}>
+    <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 sm:gap-3 flex-wrap">
       {/* Speaker Filter */}
       <DropdownFilter label="Speaker" activeCount={speaker ? 1 : 0}>
         <span style={sectionLabel}>Filter by Speaker</span>
